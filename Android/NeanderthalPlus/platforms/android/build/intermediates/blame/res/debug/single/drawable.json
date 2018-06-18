@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/debug/drawable/launcher_icon.png",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/drawable/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/debug/drawable/share_via_barcode.png",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/drawable/share_via_barcode.png"
+    },
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/debug/drawable/shopper_icon.png",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/drawable/shopper_icon.png"
+    }
+]

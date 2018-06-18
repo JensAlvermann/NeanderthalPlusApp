@@ -1,0 +1,73 @@
+<div data-role="page" id="Rundgang_Architektur07"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+		ga_storage._trackPageview('Architektur 07');
+	</script>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="architektur.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_architektur_07.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Architektur</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Erdgeschoss</h3>
+		
+		<br>
+		
+		Das Foyer im Erdgeschoss dient als Beginn und Ende des Ausstellungsbesuchs, der Empfang dient dabei als zentrale 
+		Anlaufstelle rund um den Museumsbesuch. Daneben befindet sich der MuseumsShop, der auch unabhängig vom Museumsbesuch 
+		zugänglich ist und in dem sich eine große Bandbreite von Artikeln rund um das Thema Neanderthaler findet.<br>
+		Zentraler Blickfang im Foyer ist sicherlich „Mr. N.“, die lebensechte Rekonstruktion des 1856 unweit des heutigen Museums 
+		gefundenen Neanderthalers, die durch die Künstler Adrie und Alfons Kennis angefertigt wurde.<br><br>
+		<i>Die nächste Station befindet sich in der Ausstellung beim Steinheber</i>
+
+		<br>
+		<br>
+		
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+		
+</div> 

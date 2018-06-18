@@ -1,0 +1,77 @@
+<div data-role="page" id="Rundgang_Architektur02"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+		ga_storage._trackPageview('Architektur 02');
+	</script>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="architektur.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_architektur_02.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Architektur</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Fassade</h3>
+		
+		<br>
+		
+		Wie ein schimmernder, eiszeitlicher Gletscherrest und zugleich wie ein amorpher Einzeller erscheint der transluzente 
+		Glaspanzer des Museums aus der Ferne und suggeriert damit Flüchtigkeit als Aspekt der Zeit. Der Eindruck entsteht durch 
+		die Fassade des Museums, die aus grünlichem Regalitglas, besteht. In Form von zweilagig zu Hohlkörpern geklappten und 
+		nebeneinander angeordneten U-förmigen Gußglasprofilen - in einer Dimension von 4 x 0.5 x 0.1 m - ist sie dem geschlossenen 
+		Betonkörper rundum vorgelagert. Das auch als Japanglas bekannte Material scheint auf den ersten Blick transparent. Die 
+		zwischen Aluminiumprofilen gelagerte Glasfassade dient jedoch nicht der Belichtung des Gebäudes. Vielmehr reflektiert eine 
+		dahinterliegende Dämmfolie das Licht und verleiht der Fassade damit Lebendigkeit. Zugleich wird ein Kontrast zwischen 
+		transparenter Glasfassade und geschlossenem Betonkörper erzeugt. Das im Inneren zentrale Spiralmotiv ist ebenfalls in der 
+		Fassade sichtbar.<br><br>
+		<i>Die nächste Station dieses Rundgangs befindet sich im Foyer des Museums</i>
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+		
+</div> 

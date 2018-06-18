@@ -1,0 +1,83 @@
+<div data-role="page" id="Rundgang_Dauerausstellung05"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 05');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_05.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Anfang in Afrika</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/dauerausstellung05.m4a" type="audio/mp4">
+		</audio>
+		<br>
+		<i>Starten Sie den Hörabschnitt, wenn der Film nach schwarzem Bildschirm neu beginnt</i>
+		
+		<br><br>
+		
+		Die Geschichte des Menschen began in Afrika, und am Anfang standen die Veränderungen der natürlichen Umwelt. Vor rund 
+		15 Millionen Jahren brach im Osten des Kontinents die Erdkruste auf. Lava stieg empor und entlang mehrerer tausend 
+		Kilometer entstanden Gebirge und Senken: der große afrikanische Graben. Gleichzeitig begann sich weltweit das Klima 
+		abzukühlen. Vor allem im Osten wurde es im Regenschatten neuer Gebirge immer trockener. Der Wald lichtete sich und wich 
+		der Savanne.<br>
+		In diesem Biotop wuchsen vor 4 Millionen Jahren die ersten menschlichen Wesen heran - die Australopithecinen. Sie konnten 
+		noch gut klettern, aber auch aufrecht laufen. Ihre der Savanne angepassten Überlebensstrategien gaben der Humanevolution 
+		den entscheidenden Anstoß. 
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

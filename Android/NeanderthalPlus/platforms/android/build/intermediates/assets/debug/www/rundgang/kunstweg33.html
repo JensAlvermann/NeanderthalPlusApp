@@ -1,0 +1,90 @@
+<div data-role="page" id="Rundgang_Kunstweg07"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 07');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_07.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Neandertal Hecke</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Giuseppe Pennone</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/kunstweg07.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		<font color="#404040">Das Kunstwerk ist zurzeit leider nicht zu besichtigen</font><br><br>
+		Giuseppe Pennone hat das Projekt <i>MenschenSpuren</i> beim Wort genommen. Sein Beitrag <b>Neandertal Hecke</b> ist eine 
+		poetische Refexion über den Ort und sein Thema. Für den kleinen Steinbruch an der Düssel hat Pennone eine Hecke aus der 
+		hier natürlich vorkommenden Hainbuche entworfen. Unter der Verwendung von Schablonen erhielt die Hecke in den folgenden Jahren 
+		im Wechsel von Wachsen und Schneiden die Form, die Pennone anstrebte. Auf der Oberseite der Hecke blieben "Trittspuren" 
+		ausgespart, die über die Hecke laufen und in einen höheren Busch am Ende mündeten. In diesem höheren, buschiger 
+		wachsenden Teil der Hecke wurde das Negativ einer menschlichen Figur so eingeschnitten, als sei sie in der Hecke 
+		verschwunden.
+		
+		<br><br>
+		
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Giuseppe Pennone</h3>
+		<p>wurde 1947 in Garessio, Italien geboren. er lebt und arbeitet in Turin. Giuseppe Pennone gilt als einer der 
+		herausragenden Künstler der so genannten "arte povera". Seine Kunst entsteht meistens in der Natur oder mit ihr. 
+		Sie dokumentiert eine poetische Wahrnehmung und eine unmittelbar körperhafte Auseinandersetzung mit der Natur.</p>
+		</div>
+		
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

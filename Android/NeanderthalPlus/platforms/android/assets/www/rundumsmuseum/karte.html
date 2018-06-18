@@ -1,0 +1,63 @@
+<div data-role="page" id="RundUmsMuseum_Karte"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Karte');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="../rundgang/uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="karte">
+			<section>
+    		<div class="parent">
+      			<div class="panzoom">
+         			<img src="../img/karte.svg" height="100%">
+       			</div>
+      		</div>
+      
+      			<script>
+      			(function() {
+      			var $section = $('section').first();
+        			$section.find('.panzoom').panzoom({
+					$zoomIn: $section.find(".zoom-in"),
+    				$zoomOut: $section.find(".zoom-out"),
+					$zoomRange: $section.find(".zoom-range"),
+					$reset: $section.find(".reset")
+        			});
+    			})();
+      			</script>
+    		</section>
+    	</div>
+    
+    	<div id="karte_info">
+			<img src="../symb/karte_info.svg"/>
+		</div>
+    </div>
+	
+</div> 

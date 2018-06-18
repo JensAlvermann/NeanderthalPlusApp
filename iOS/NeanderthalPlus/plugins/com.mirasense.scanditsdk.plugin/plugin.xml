@@ -1,0 +1,132 @@
+<?xml version="1.0" ?> <plugin id="com.mirasense.scanditsdk.plugin" version="4.12.2" xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">        
+	    <name>ScanditBarcodeScanner</name>    
+	    <js-module name="Barcode" src="src/barcode.js">      
+		      <clobbers target="Scandit.Barcode"/>      
+	    </js-module>    
+	    <js-module name="BarcodePicker" src="src/barcodepicker.js">      
+		      <clobbers target="Scandit.BarcodePicker"/>      
+	    </js-module>    
+	    <js-module name="License" src="src/license.js">      
+		      <clobbers target="Scandit.License"/>      
+	    </js-module>    
+	    <js-module name="Margins" src="src/margins.js">      
+		      <clobbers target="Scandit.Margins"/>      
+	    </js-module>    
+	    <js-module name="Point" src="src/point.js">      
+		      <clobbers target="Scandit.Point"/>      
+	    </js-module>    
+	    <js-module name="Quadrilateral" src="src/quadrilateral.js">      
+		      <clobbers target="Scandit.Quadrilateral"/>      
+	    </js-module>    
+	    <js-module name="Rect" src="src/rect.js">      
+		      <clobbers target="Scandit.Rect"/>      
+	    </js-module>    
+	    <js-module name="ScanOverlay" src="src/overlay.js">      
+		      <clobbers target="Scandit.ScanOverlay"/>      
+	    </js-module>    
+	    <js-module name="ScanSession" src="src/session.js">      
+		      <clobbers target="Scandit.ScanSession"/>      
+	    </js-module>    
+	    <js-module name="ScanSettings" src="src/settings.js">      
+		      <clobbers target="Scandit.ScanSettings"/>      
+	    </js-module>    
+	    <js-module name="SymbologySettings" src="src/symbologysettings.js">      
+		      <clobbers target="Scandit.SymbologySettings"/>      
+	    </js-module>    
+	    <platform name="ios">            
+		        <plugins-plist key="ScanditSDK" string="ScanditSDK"/>            
+		        <!-- feature tag in config.xml -->            
+		        <config-file parent="/widget" target="config.xml">                
+				        <feature name="ScanditSDK">                    
+					            <param name="ios-package" value="ScanditSDK"/>                    
+				        </feature>                
+		        </config-file>            
+
+		        <!-- Resource Bundle for Scandit SDK -->      
+		        <resource-file src="src/ios/sbs-ios_4.12.2/ScanditBarcodeScanner.bundle"/>      	  
+		        <!-- Scandit SDK Cordova Plugin Source for iOS -->      
+		        <header-file src="src/ios/ScanditSDK.h"/>      
+		        <source-file src="src/ios/ScanditSDK.mm"/>      
+		        <header-file src="src/ios/ScanditSDKRotatingBarcodePicker.h"/>      
+		        <source-file src="src/ios/ScanditSDKRotatingBarcodePicker.m"/>      
+		        <header-file src="src/ios/ScanditSDKSearchBar.h"/>      
+		        <source-file src="src/ios/ScanditSDKSearchBar.m"/>      
+		        <header-file src="src/ios/SBSLegacySettingsParamParser.h"/>      
+		        <source-file src="src/ios/SBSLegacySettingsParamParser.m"/>      
+		        <header-file src="src/ios/SBSLegacyUIParamParser.h"/>      
+		        <source-file src="src/ios/SBSLegacyUIParamParser.m"/>      
+		        <header-file src="src/ios/SBSPhonegapParamParser.h"/>      
+		        <source-file src="src/ios/SBSPhonegapParamParser.m"/>      
+		        <header-file src="src/ios/SBSUIParamParser.h"/>      
+                <source-file src="src/ios/SBSUIParamParser.m"/>      
+                <header-file src="src/ios/SBSLocalScanSession.h"/>      
+                <source-file src="src/ios/SBSLocalScanSession.m"/>      
+
+		  
+		        <!-- Frameworks needed by Scandit SDK for iOS -->      
+		        <framework custom="true" src="src/ios/sbs-ios_4.12.2/ScanditBarcodeScanner.framework"/>      
+		        <framework src="OpenGLES.framework"/>      
+		        <framework src="AudioToolbox.framework"/>      
+		        <framework src="AVFoundation.framework"/>            
+		        <framework src="CoreGraphics.framework"/>            
+		        <framework src="CoreText.framework"/>            
+		        <framework src="CoreLocation.framework"/>            
+		        <framework src="CoreMedia.framework"/>            
+		        <framework src="CoreVideo.framework"/>            
+		        <framework src="QuartzCore.framework"/>            
+		        <framework src="OpenGLES.framework"/>            
+		        <framework src="SystemConfiguration.framework"/>            
+		        <framework src="libiconv.dylib"/>            
+		        <framework src="libz.dylib"/>            
+		        <framework src="libc++.dylib"/>            
+	    </platform>         
+      
+   <platform name="android">            
+		      <!-- register plugin -->            
+		      <config-file parent="/widget" target="res/xml/config.xml">                
+			        <feature name="ScanditSDK">                    
+				          <param name="android-package" value="com.mirasense.scanditsdk.plugin.ScanditSDK"/>                    
+			        </feature>                
+		      </config-file>            
+		      <!-- add permissions in AndroidManifest.xml file-->            
+		      <config-file parent="/manifest" target="AndroidManifest.xml">                
+			        <uses-permission android:name="android.permission.CAMERA"/>                
+			        <uses-permission android:name="android.permission.VIBRATE"/>                
+			        <uses-permission android:name="android.permission.INTERNET"/>                
+		      </config-file>            
+		      <!-- add ScanditSDK Activity to the "application" section of AndroidManifest.xml file -->            
+		      <config-file parent="/manifest/application" target="AndroidManifest.xml">                
+			        <activity android:name="com.mirasense.scanditsdk.plugin.ScanditSDKActivity"/>                
+		      </config-file>            
+		      <!-- copy Scandit SDK libs -->            
+              <source-file src="src/android/sbs-android_4.12.2/libs/scanditsdk-android-4.12.2.jar" target-dir="libs"/>      
+              <source-file src="src/android/sbs-android_4.12.2/libs/armeabi/libscanditsdk-android-4.12.2.so" target-dir="libs/armeabi"/>      
+              <source-file src="src/android/sbs-android_4.12.2/libs/armeabi-v7a/libscanditsdk-android-4.12.2.so" target-dir="libs/armeabi-v7a"/>      
+              <source-file src="src/android/sbs-android_4.12.2/libs/x86/libscanditsdk-android-4.12.2.so" target-dir="libs/x86"/>      
+              <source-file src="src/android/sbs-android_4.12.2/libs/arm64-v8a/libscanditsdk-android-4.12.2.so" target-dir="libs/arm64-v8a"/>      
+		      <!-- copy Scandit SDK resources (images, beep) -->            
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/beep.wav" target-dir="res/raw"/>            
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/scandit_logo.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/scandit_logo2x.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/scandit_logo3x.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/ic_btn_search.png" target-dir="res/raw"/>            
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/flashlight_turn_off_icon.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/flashlight_turn_off_icon_pressed.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/flashlight_turn_on_icon.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/flashlight_turn_on_icon_pressed.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/camera_swap_icon.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/camera_swap_icon_pressed.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/scan_line_blue.png" target-dir="res/raw"/>      
+		      <source-file src="src/android/sbs-android_4.12.2/res/raw/scan_line_white.png" target-dir="res/raw"/>      
+              <!-- add plugin source code -->      
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/ScanditSDK.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>                  
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/ScanditSDKActivity.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>                  
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/ScanditSDKResultRelay.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>                
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/ScanditSDKSearchBar.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>            
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/SearchBarBarcodePicker.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>              
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/LegacySettingsParamParser.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>      
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/LegacyUIParamParser.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>      
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/PhonegapParamParser.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>      
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/UIParamParser.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>      
+		      <source-file src="src/android/com/mirasense/scanditsdk/plugin/ScanditWorker.java" target-dir="src/com/mirasense/scanditsdk/plugin"/>      
+	    </platform> </plugin>

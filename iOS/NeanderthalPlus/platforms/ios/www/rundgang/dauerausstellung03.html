@@ -1,0 +1,78 @@
+<div data-role="page" id="Rundgang_Dauerausstellung03"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 03');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_03.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Sanduhr</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/dauerausstellung03.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Die Entwicklung des Lebens und seine Veränderungen verlaufen in für Menschen kaum fassbaren Zeiträumen. Dessen war sich 
+		schon Charles Darwin bewusst: <i>„Die Betrachtung solcher Tatsachen hat auf den Geist fast dieselbe Wirkung wie das 
+		vergebliche Bemühen, sich eine Vorstellung von der Ewigkeit zu machen.“</i> schieb er in seinem Werk „Die Entstehung der Arten“.<br>
+		Erst seit etwas mehr als 100 Jahren haben wir eine Vorstellung davon, wie alt die Erde tatsächlich ist, seit wann es Leben 
+		auf dem Planeten gibt und wie vergleichsweise kurz die Existenz der Menschen und ihrer fossilen Vorgänger ist.
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+		
+</div> 

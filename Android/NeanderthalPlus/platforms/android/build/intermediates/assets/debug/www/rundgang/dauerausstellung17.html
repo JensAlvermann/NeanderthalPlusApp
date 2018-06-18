@@ -1,0 +1,81 @@
+<div data-role="page" id="Rundgang_Dauerausstellung17"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 17');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_17.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Frühgeburt Mensch</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/dauerausstellung17.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Das Menschenskind ist eine Frühgeburt. Es muss in völlig unreifem Zustand auf die Welt, damit sein Kopf mit dem großen 
+		Gehirn den Geburtskanal noch passieren kann. Hätte es denselben Reifegrad wie ein Schimpansenbaby, müsste es weitere zehn 
+		Monate im Mutterleib verbleiben.<br>
+		Daher ist neben der Betreuung durch die Mutter die Unterstützung durch weitere Beteiligte zwingend erforderlich. Sie müssen 
+		direkte und indirekte Hilfe für Kind und Mutter leisten: Sie beschaffen Nahrung und andere Ressourcen, stellen Gerätschaften 
+		und Hilfsmittel zur Verfügung und gewähren Schutz. Neben der Einbindung des Mannes und anderer Gruppenmitglieder in die 
+		Betreuung der Kinder ist auch die Oma-Rolle eine Erfindung des Menschen. Gemeinschaftliche Betreuung des Nachwuchses setzte 
+		spätestens mit Homo erectus ein. Die Sorge um das Kind schuf eng miteinander verbundene Kleingruppen. 
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

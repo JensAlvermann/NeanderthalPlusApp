@@ -1,0 +1,44 @@
+<div data-role="page" id="Veranstaltungen"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #404040 !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Veranstaltungen');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="../rundgang/uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="../index.html" data-transition="fade" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<div id="pagetitle">Veranstaltungen</div>
+	</div>
+	
+	<div data-role="content">
+	<div id="bild" style="background: url(../img/veranstaltungen_uebersicht.jpg) no-repeat; background-size: 100% 100%;">
+	</div>
+	
+		<div id="veranstaltungen">
+			<iframe src="kalender.htm" seamless></iframe>
+		</div>
+		<br>
+	</div> 
+	
+</div> 

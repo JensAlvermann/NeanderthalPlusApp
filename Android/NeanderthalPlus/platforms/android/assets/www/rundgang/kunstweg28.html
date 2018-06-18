@@ -1,0 +1,87 @@
+<div data-role="page" id="Rundgang_Kunstweg02"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 02');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_02.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+	
+		<h3>Memoria Mundi</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Anne und Patrick Poirier</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/kunstweg02.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		In einem von der Vegetation überwucherten, ehemaligen Steinbruch haben Anne und Patrick Poirier ein Bild für das 
+		Gedächtnis der Welt geschaffen. <b>Memoria Mundi</b> nennen sie ihre Arbeit, die vor allem durch zwei fremde Elemente, 
+		einem Pfeil und einem Gehirn, zu einem metaphorischen Bild wird. Die Poiriers, die sich mit Orten des kollektiven 
+		Gedächtnisses auseinandersetzen, haben den Steinbruch wie einen archäologischen Fundort zurückgelassen. Das Bild soll 
+		an unsere kulturellen Wurzeln und ihre Bewahrung erinnern.
+		
+		<br><br>
+
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Anne und Patrick Poirier</h3>
+		<p>wurden 1942 in Marseille bzw. Nantes geboren. Sie arbeiten in Paris und Trevi. Die Poiriers arbeiten seit Jahrzehnten
+		über Orte der Erinnerung. Die realen oder fiktiven Orte des kollektiven Gedächtnisses konstruieren Sie als Architekten
+		oder legen sie als Archäologen frei.</p>
+		</div>
+
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

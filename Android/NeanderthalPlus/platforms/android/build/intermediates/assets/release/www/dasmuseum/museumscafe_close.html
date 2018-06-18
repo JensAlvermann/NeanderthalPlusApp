@@ -1,0 +1,66 @@
+<div data-role="page" id="Das_Museum_MuseumsCafeClose"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('MuseumsCafé Close');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="../rundgang/uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Das Museum</div>
+	</div>
+	
+	
+	<div data-role="content">
+	<div id="bild" style="background: url(../img/dasmuseum_museumscafe.jpg) no-repeat; background-size: 100% 100%;">
+		<div id="contenttitle">
+		<div id="titletext">MuseumsCafé</div><div id="feature" style="background: #00305d"><a href="museumscafe_erkennung_beacons.html" onclick="ChooseTour()" data-transition="fade"><img src="../symb/offer.svg"></a></div>
+		</div>
+	</div>
+	<br>
+		<h3>Café mit Ausblick</h3>
+		Ein einmaliger Ausblick in Richtung des Fundortes des Neanderthalers erwartet Sie am Ende der Ausstellung im MuseumsCafé. Lassen Sie hier Ihren Museumsbesuch bei Kaffee & Kuchen oder einem "Steinzeitbrötchen" ausklingen. Übrigens, wenn Sie im 
+		MuseumsCafé sind, versteckt sich oben hinter dem Symbol in der blauen Box ein Angebot exklusiv für Sie! Probieren Sie es aus...<br>
+		
+		<div id="page_extern">
+            <iframe src="http://app.art2media.de/externe_seiten/museumscafe_ext.html" seamless background="transparent"></iframe>
+        </div>
+						
+
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		delete tour;
+		} 
+		
+		function ChooseTour() {
+			tour = 3; // Tour 3 = MuseumsCafé
+		}
+	</script>
+		
+</div> 

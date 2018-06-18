@@ -1,0 +1,89 @@
+<div data-role="page" id="Rundgang_Kunstweg06"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 06');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_06.jpg) no-repeat; background-size: 100% 100%;"> 
+			<div id="contenttitle">
+			<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Calx</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Klaus Simon</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/kunstweg06.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Wenn der Besucher auf der rechten Seite der Düssel in Richtung Museum zurückkehrt, stößt er am Wegrand auf einen enormen 
+		Kalksteinblock, der aus der Ferne wie ein natürlicher Stein anmutet. Erst aus der Nähe erkennt man, dass der Block 
+		bearbeitet wurde. Klaus Simon hat aus dem Kalkstein ein Dokument menschlicher Bearbeitungsspuren geschaffen. Geht der 
+		Besucher weiter, so wird er über die im Stein abgeformte Bronzespirale laufen, die in den Weg eingelassen wurde. Simon 
+		geht es in seiner zweiteiligen Arbeit <b>Calx</b> um das Sichtbarmachen von Prozessen. Das Zusammenwirken von 
+		Naturmaterialien und menschlicher Technik ermöglichte die kulturelle und wirtschaftliche Entwicklung, die im Neandertal 
+		so unübersehbare Spuren hinterlassen hat. 
+		
+		<br><br>
+		
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Klaus Simon</h3>
+		<p>wurde 1949 in Bad Godesberg geboren. Er lebt und arbeitet heute in Krefeld. Die Konfiguration von 
+		Positiv-Negativ Formen beschäftigt ihn in vielen seiner Arbeiten. Klaus Simon versucht häufig kulturanthropologische 
+		Perspektiven über das Material, den Ort oder die Arbeitsweise in seine Arbeiten zu integrieren.</p>
+		</div>
+		
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

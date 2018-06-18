@@ -1,0 +1,89 @@
+<div data-role="page" id="Rundgang_Kunstweg09"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 09');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_09.jpg) no-repeat; background-size: 100% 100%;"> 
+			<div id="contenttitle">
+			<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Habitat</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Nils Udo</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/kunstweg09.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		<font color="#404040">Das Kunstwerk ist leider nicht mehr zu besichtigen</font><br><br>
+		Unerwartet taucht unter einer schützenden Roßkastanie die Arbeit von Nils Udo auf. Ein großes Korbgeflecht hängt dort 
+		unter den gebogenen Ästen. Flechtwerk und Kastanie sind hier eine Symbiose eingegangen. <b>Habitat</b> nennt Nild Udo 
+		das fünf Meter lange Werk. Das Habitat ist die Behausung eines Wesens, das nur im Neandertal noch einen idealen Baum 
+		und Bedingungen zum Überleben gefunden hat. Parallel zur Natur erfindet Nils Udo Formen, die auf den ersten Blick wie 
+		natürliche aussehen. Hinter sich verwischt er wieder die Spuren zwischen Natur und Kultur. Durch mehrfachen Vandalismus 
+		wurde das Habitat irreparabel zerstört und ist daher leider nicht mehr zu sehen.    
+		
+		<br><br>
+		
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Nils Udo</h3>
+		<p>wurde 1937 in Lauf geboren.Er lebt und arbeitet in Riedering, Bayern. Seine Arbeiten sind "para-natürliche" 
+		Interventionen in der Natur. Dabei bezieht Nils Udo sich ausdrücklich auf natürliche Formen und Phänomene. Durch 
+		Irritation versucht er, den Betrachter für die tatsächlichen, natürlichen Phänomene zu sensibilisieren.</p>
+		</div>
+		
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

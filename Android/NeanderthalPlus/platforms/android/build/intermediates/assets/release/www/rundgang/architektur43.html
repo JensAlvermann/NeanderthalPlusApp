@@ -1,0 +1,105 @@
+<div data-role="page" id="Rundgang_Architektur10"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+		ga_storage._trackPageview('Architektur 10');
+	</script>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="architektur.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_architektur_10.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Architektur</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+			
+		<h3>Wettbewerb & Auszeichnungen</h3>
+		
+		<br>
+		
+		Für die Architektur des Neanderthal Museums bestanden die Anforderungen maßgeblich in einer funktionierenden 
+		Museumsarchitektur im Sinne eines passgenauen Ineinandergreifen von Architektur, Ausstellung und nicht musealem Teil. 
+		Besonderes Ziel war es dabei, den Besuchern über die Architektur den Einstieg in die Ausstellungsinhalte zu erleichtern.<br>
+		Es folgte ein vielbeachteter Wettbewerb mit 136 teilnehmenden Architekturbüros und freien Architekten aus dem In- und 
+		Ausland. Es wurden Entwürfe in außerordentlicher Vielfalt eingereicht. Am Ende des Planungsprozesses kam der Entwurf 
+		von Zamp Kelp, Krauss und Brandhuber zur Ausführung, deren Entwurf sich auf das Thema mitsamt seinem Mythos unter 
+		Vermeidung von allem Überflüssigem konzentrierte, indem er die Einzigartigkeit des Ortes und die Aufgabe des Museums 
+		in einer außergewöhnlichen und zugleich sprechenden Architektur widerspiegelte.<br>
+		Der Bau des Museums wurde ausschließlich mit privaten Mitteln finanziert. So stellte die Nordrhein-Westfalen-Stiftung 
+		12 Millionen DM zur Verfügung, die RWE AG eine Schenkung in Höhe von 5.55 Millionen DM für die Inneneinrichtung, die 
+		Stadt Mettmann stellte das Grundstück und der Kreis Mettmann übernahm die Trägerschaft des Museums.<br><br>
+		
+		<div data-role="collapsible" id="custom-collapsible">
+        <h3>Architektur Auszeichnungen</h3>
+        <p>1997 Architekturpreis Beton<br>
+		1997 Auszeichnung guter Bauten, BDA-Preis Düsseldorf, verliehen vom Bund Deutscher Architekten<br>
+		1998 European Museum of the YearAward Special Commendation, verliehen vom Europäischen Museumsforum<br>
+		1998 Architektur Preis Nordrhein-Westfalen, verliehen vom Bund Deutscher Architekten<br>
+		2002 Auswahl des Neanderthal Museums durch eine nationale und internationale Jury für die Sonderausstellung „Neue deutsche Architektur - Eine reflexive Moderne“<br><br>
+        <p>
+        </p><br>
+    	</div>
+    	
+    	<div data-role="collapsible" id="custom-collapsible">
+        <h3>Über den Architekten</h3>
+        <p>Der Düsseldorfer Architekt Günter Zamp Kelp schneidert Architektur dem geistigen Inhalt auf den Leib. Er lässt dabei 
+        Themen wie Bewegung und Raumerfahrung ganz selbstverständlich in das Museum einfließen und setzt sie in einen 
+        programmatischen architektonischen Zusammenhang. Zamp Kelp definiert Erinnerung als die Transferierung von Orten und 
+        Ereignissen aus der Vergangenheit in die Aktualität unseres Bewusstseins, dabei misst er der Inszenierung des Aktes einen 
+        großen Stellenwert zu. Diesen Prozess zu visualisieren ist die Aufgabe des Museums, wobei die Architektur trotz der 
+        fokussierten Dynamik dabei statisch bleibt. Die proklamierte Bewegung kann nach Wunsch leiblich erfahren werden. Denn 
+        entgegengesetzt zur außen sichtbaren horizontalen Gliederung wird der fensterlose Innenraum des Neanderthal Museums von 
+        einem vertikalen Gedanken beherrscht, dem der Ausstellungsbesucher entweder langsam auf der Rampe folgen kann, zügiger 
+        auf der in der Mitte des Baus hochgezogenen Treppe oder besonders schnell und bequem im gläsernen Fahrstuhl. Zamp Kelp 
+        meint „vom Monument zum Ereignis“, das Neanderthal Museum aber ist beides - Monument und Ereignis.<br><br>
+        <p>
+        </p><br>
+    	</div>
+    	
+		<br>
+		<br>
+		
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+		
+</div> 

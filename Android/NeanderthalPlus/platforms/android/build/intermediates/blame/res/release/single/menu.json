@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/release/menu/encode.xml",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/menu/encode.xml"
+    },
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/release/menu/capture.xml",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/menu/capture.xml"
+    },
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/release/menu/history.xml",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/menu/history.xml"
+    }
+]

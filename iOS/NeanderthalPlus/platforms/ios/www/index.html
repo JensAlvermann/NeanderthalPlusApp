@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+
+<html> 
+	<head> 
+  
+	<!-- Darstellung als mobile Webseite -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+	<!-- Initialisieren des Mobile Frameworks -->
+	<script src="cordova.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+	<link rel="stylesheet" href="css/nm.css" /> 
+	<link rel="stylesheet" href="css/styling.css" />
+	
+	<!-- Initialisieren zusätzlicher Framework Komponenten -->
+	<script src="js/jquery.panzoom.js"></script>
+	
+	<!-- BLE Komponenten --> 
+	<script src="js/libs/evothings/evothings.js"></script>
+	<script src="js/app.js"></script>
+    
+    <!-- QR Code Reader Komponente -->
+    <script src="js/QRCodeReader.js"></script>
+    
+    <!-- Audio Bibliothek  -->
+    <script src="js/audio.min.js"></script>
+
+    <!--  OWL Slider JS direkt in Pages eingebunden, CSS in NM.css eingebunden -->
+	
+	
+	<!--  Cache bei jedem Start der App löschen, im aktuellen iFrame Content anzuzeigen -->
+	<script>
+	document.addEventListener('deviceready', onDeviceReady);
+		function onDeviceReady()
+			{
+       			window.cache.clear();
+			}
+	</script>
+	
+	
+    <!-- Google Analytics -->
+	<script type="text/javascript" src="js/GALocalStorage.js"></script>
+	<script>
+    	ga_storage._setAccount('UA-56539344-2'); 
+    	ga_storage._trackPageview('Start');
+	</script>
+	
+	<script>
+    	if (window.hyper) { console.log = hyper.log; }
+	</script>
+	
+	</head>
+
+	<!-- Seitenhintergrund für data-transition gilt für alle JQM Pages -->
+	<body style="background-color: #404040">
+
+		<div id="setting" class="startbg">	
+			<div class id="hauptmenu">
+				<a href="dasmuseum/uebersicht.html" data-transition="fade"><img src="symb/btn_dasmuseum.svg"/></a><div id="space"></div>
+				<a href="ausstellungen/uebersicht.html" data-transition="fade"><img src="symb/btn_ausstellungen.svg"/></a><div id="space"></div>
+				<a href="rundgang/uebersicht.html" data-transition="fade"><img src="symb/btn_rundgang.svg"/></a><div id="space"></div>
+				<a href="rundumsmuseum/uebersicht.html" data-transition="fade"><img src="symb/btn_rundumsmuseum.svg"/></a><div id="space"></div>
+				<a href="veranstaltungen/uebersicht.html" data-transition="fade"><img src="symb/btn_veranstaltungen.svg"/></a><div id="space"></div>
+				<a href="meinmuseum/uebersicht.html" data-transition="fade"><img src="symb/btn_meinmuseum.svg"/></a>
+			</div>
+		
+			<div class id="sa_umblaettern">
+				<a href="meinmuseum/appfeatures.html" data-transition="slide"><img src="img/sa_umblaettern.png"/></a>
+			</div>
+	
+		</div>	
+
+	</body>
+
+</html>

@@ -1,0 +1,88 @@
+<div data-role="page" id="Rundgang_Dauerausstellung04"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 04');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_04.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Ahnengalerie</h3>
+		
+		<br>
+		
+		Klicken Sie auf die einzelnen Stationen der Ahnengalerie, um die entsprechenden Audioinformationen aufzurufen:
+		
+		<br><br>
+		
+		<div id="rundgang_links">
+		<a href ="dauerausstellung04a.html" data-role="button" data-transition="slide">Wie alles anfing</a><br>
+		<a href ="dauerausstellung04b.html" data-role="button" data-transition="slide">Robuste Typen</a><br>
+		<a href ="dauerausstellung04c.html" data-role="button" data-transition="slide">Weltenwanderer</a><br>
+		<a href ="dauerausstellung04d.html" data-role="button" data-transition="slide">Siedler mit Hacke</a><br>
+		<a href ="dauerausstellung04e.html" data-role="button" data-transition="slide">Weltenverbraucher</a><br>
+		</div>
+		
+		<br><br>
+		
+		In Afrika, wo die Geschichte der Menschen begann, verließen vor etwa 7 Millionen Jahren Menschenaffen die Bäume, um sich 
+		zunehmend aufrechter am Boden zu bewegen. Ihre Evolution zum Menschen verlief nicht in gerader Linie, sondern in einem 
+		verzweigten Geflecht aus Sackgassen und Parallelentwicklungen.<br>
+		Die Geschichte der Gattung Mensch begann vor etwa 2,5 Millionen Jahren mit dem Beginn des Eiszeitalters und erst vor 250.000 
+		Jahren traten in Europa die ersten Neanderthaler auf, um gegen 40.000 Jahre vor heute wieder im Strom der Geschichte 
+		unterzutauchen. Mit dem Ende des Eiszeitalters begann die kulturelle Entwicklung des Menschen immer schneller zu werden, 
+		um heute ein geradezu atemberaubendes Tempo gewonnen zu haben.
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

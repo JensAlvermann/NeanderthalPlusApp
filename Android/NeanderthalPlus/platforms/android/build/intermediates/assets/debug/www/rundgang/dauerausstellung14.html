@@ -1,0 +1,80 @@
+<div data-role="page" id="Rundgang_Dauerausstellung14"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 14');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_14.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Sammeln & Jagen</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/dauerausstellung15.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Zwei Millionen Jahre lang zogen Menschen als Nomaden durch die Welt und lebten von dem, was die Natur ihnen bot. Sie 
+		sammelten Früchte, Beeren, Nüsse, Wurzeln, Eier, Muscheln und Insekten. Sie jagten kleine und große Säugetiere, Fische und 
+		Vögel. Die Beweglichkeit der Jäger und Sammler machte diese Lebensstrategie so erfolgreich.<br>
+		Die Nahrungsquellen der Natur sprudeln zu unterschiedlichen Jahreszeiten und an unterschiedlichen Orten. Man folgte diesem 
+		Rhythmus und hielt sich oft nur wenige Wochen an einem Lagerplatz auf. Die Gruppen waren klein und bestanden aus 20 bis 30 
+		Personen. Wurde Nahrung knapp und drohte Hunger, spalteten sie sich weiter auf. Hatte man aber eine ganze Tierherde erlegt, 
+		schlossen sich mehrere Gruppen zusammen.
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+		
+</div> 

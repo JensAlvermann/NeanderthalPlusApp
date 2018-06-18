@@ -1,0 +1,86 @@
+<div data-role="page" id="Rundgang_Architektur03"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+		ga_storage._trackPageview('Architektur 03');
+	</script>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="architektur.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_architektur_03.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Architektur</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Museumsbau</h3>
+		
+		<br>
+		
+		Wie schon in der Fassade finden sich Analogien zum Anfang der Menschwerdung auch im zellenförmigen Grundriss des 
+		Museumsbaus. Entworfen wurde dieser in Anlehnung an den Einzeller als Anfang allen Lebens. Der fensterlose Innenraum 
+		des Museumsbaus ist durch eine Oberfläche aus Sichtbeton gekennzeichnet und schafft somit eine höhlenartige Atmosphäre.<br> 
+		Zentrales architektonisches Element stellt die 400 m lange, spiralförmige Rampe mit dreiprozentiger Neigung dar, die ein Symbol 
+		für die Evolution und ihre Unendlichkeit darstellt. Sie führt oben zu einer geschosshohen Glasfront, die den Blick in 
+		Richtung Düssel und der Fundstelle des Neanderthalers freigibt. Die Rampe bleibt mit der Weiterführung in die 
+		hinausragende Schlusstangente des Gebäudes offen und lässt damit den Ausstellungsraum, gewissermaßen mit den 
+		Museumsbesuchern im Hier und Jetzt im MusuemsCafé, unendlich weiterfließen. Zugleich ist die Rampe aber auch 
+		Schnittstelle zwischen Architektur und Ausstellung. Von einer insgesamt 2.500 qm2 umfassenden Nutzfläche des 
+		Museumsgebäudes, werden hier 1.200 qm2 als Fläche für die Dauerausstellung und 200 qm2 für Sonderausstellungen genutzt. 
+		Das sich innerhalb der Spirale befindende Treppenhaus dient neben seiner Funktion als Erschließung des Gebäudes 
+		zugleich als Klimakanal zur Belüftung des Gebäudes: Pro Stunde wird hierüber die komplette Innenraumluft ausgetauscht, 
+		die etwa 10.000 qm3 umfasst. Die Kühlung und Heizung des Innenraums erfolgt über Erdwärme.<br> 
+		Die Architektur des Museumsgebäudes muss dem Mythos des Standortes gerecht werden, zugleich aber auch den präsentierten 
+		Inhalten und vor allem auch den multimedialen und interaktiven Medien entsprechen. Die Grundsteinlegung für diesen Bau 
+		erfolgte am 13. Juli 1995. Im Oktober 1996 dann wurde das Neanderthal Museum eröffnet und löste damit den etwa 500 m 
+		entfernten Vorgängerbau ab, der heute als „Steinzeitwerkstatt“ die museumspädagogische Abteilung des Museums beherbergt.<br><br>
+		<i>Die nächste Station dieses Rundgangs befindet sich auf dem ersten unteren Zwischenpodest der Treppe</i>
+		
+		<br>
+		<br>
+		
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

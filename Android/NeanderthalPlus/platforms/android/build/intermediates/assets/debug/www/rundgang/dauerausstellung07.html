@@ -1,0 +1,80 @@
+<div data-role="page" id="Rundgang_Dauerausstellung07"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+	
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 07');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_07.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>DNA Tunnel</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/dauerausstellung07.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Im Mai 2010 gab die Arbeitsgruppe um Svante Pääbo am Max Planck Institut in Leipzig die Entschlüsselung des Neanderthaler 
+		Genoss bekannt. Für eine vollständige Abfolge der DNA wurden Proben von verschiedenen Neanderthaler-Knochen verglichen. 
+		Die Entschlüsselung des Neanderthaler Genoms gilt als wissenschaftliche Sensation. Die belegt: Wir alle sind auch etwas 
+		Neanderthaler. Jeder Mensch außerhalb des subsaharischen Afrika trägt 1-4% Neandertaler Gene in sich. Wir gehören zur 
+		gleichen Art.<br>
+		Die Vermischung soll vor etwa 80.000 Jahren im Nahen Osten stattgefunden haben. In unseren Breiten wären sich die beiden 
+		Unterarten demnach nie begegnet. Dies kann mit klimatischen Vorgängen erklärt werden.
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

@@ -1,0 +1,83 @@
+<div data-role="page" id="Rundgang_Dauerausstellung15"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+	
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 15');
+	</script>
+	
+
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_15.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Global Change</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/dauerausstellung09.m4a" type="audio/mp4">
+		</audio>
+		<br>
+		<i>Starten Sie den Hörabschnitt, wenn der Film nach schwarzem Bildschirm neu beginnt</i>
+		
+		<br><br>
+		
+		Vor rund 10.000 Jahren wurden im Vorderen Orient die ersten Feldbauern sesshaft. Die erwirtschafteten Nahrungsüberschüsse 
+		ließen die Bevölkerung schnell anwachsen - ein Prozess, der sich immer mehr beschleunigte. In weniger als 10.000 Jahren 
+		wuchs die Zahl der Menschen auf unserem Planeten auf das Zwanzigfache. Die Massen sammelten sich in den Städten und wurden 
+		anfällig für Seuchen und Epidemien. Die demographische Kurve stieg ständig an, bis auf eine Ausnahme: die Pestepidemie, 
+		die Europa im 14. Jahrhundert heimsuchte.<br>
+		Wahrscheinlich erreicht die Weltbevölkerung bis etwa 2050 ein Maximum von ca. 8 Milliarden Menschen und wird danach durch 
+		fortschreitende Überalterung und sinkende Geburtenraten stark abnehmen.
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

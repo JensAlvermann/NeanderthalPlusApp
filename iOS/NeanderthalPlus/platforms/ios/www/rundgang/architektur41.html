@@ -1,0 +1,75 @@
+<div data-role="page" id="Rundgang_Architektur06"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+		ga_storage._trackPageview('Architektur 06');
+	</script>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="architektur.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_architektur_06.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Architektur</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Untergeschoss</h3>
+		
+		<br>
+		
+		Das Untergeschoss beherbergt die Sonderausstellungen, von denen das Neanderthal Museum in der Regel drei im Jahr präsentiert. 
+		Diesem Bereich vorgelagert befindet sich das Auditorium, das als Veranstaltungsort für wissenschaftliche und 
+		nichtwissenschaftliche Events von nationalem und internationalem Rang dient. Zu den regulären Öffnungszeiten des 
+		Museums finden Sie hier Filmvorführungen zum Thema Neanderthaler. Hinter der Tür vor der Sie gerade stehen, befinden 
+		sich die Werkstätten und das Magazin des Museums, welche für die Öffentlichkeit nicht zugänglich sind. Die Technik und 
+		Logistik im Museum bleiben auf diese Weise unauffällig. Somit kann sich der Museumsbesucher ganz auf die 
+		Ausstellungsinhalte konzentrieren.<br><br>
+		<i>Die nächste Station befindet sich im MuseumsShop</i>
+
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+		
+</div> 

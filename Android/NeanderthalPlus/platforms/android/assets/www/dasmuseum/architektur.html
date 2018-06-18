@@ -1,0 +1,96 @@
+<div data-role="page" id="DasMuseum_Architektur"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Architektur');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="../rundgang/uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Ausstellungen</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="owl-bilder" class="owl-carousel_slim">
+
+                <div class="item">
+					<img src="../img/dasmuseum_architektur_01.jpg"></img>
+				</div>
+				
+				<div class="item">
+					<img src="../img/dasmuseum_architektur_02.jpg"></img>
+				</div>
+				
+				<div class="item">
+					<img src="../img/dasmuseum_architektur_03.jpg"></img>
+				</div>
+				
+				<div class="item">
+					<img src="../img/dasmuseum_architektur_04.jpg"></img>
+				</div>
+		</div>
+		
+		<div id="bild_slide">
+			<div id="contenttitle">
+				<div id="titletext">Architektur</div><div id="feature" style="background: #00305d"><img src="../symb/swipe.svg"></div>
+			</div>
+		</div>
+	
+		<br>
+		
+		<h3>Das Museum und seine Architektur</h3>
+		Die Architektur des Neanderthal Museums wurde mehrfach ausgezeichnet. Dem geschlossenen Betonkörper ist eine Fassade aus Japanglas vorgehängt, die räumliche Tiefe 
+		erzeugt und im Gegensatz zum Sichtbeton im Inneren steht. Zentrales Element ist eine spiralförmig aus der Erde steigende Rampe. Sie erstreckt sich über vier Ebenen, 
+		erschließt so die Ausstellungsbereiche und prägt das Museum Innen und Außen. Die Rampe, Schnittstelle zwischen Architektur und Ausstellung, ist Symbol für die 
+		Evolution und ihre Unendlichkeit. Sie endet in einer Glasfront, die den Blick in Richtung Düssel und Fundort freigibt und an den offenen Ausgang der Evolution erinnert.<br>
+		Dem zentralen Ausstellungsbau schließt sich seitlich das Verwaltungsgebäude an. Der Museumsgarten steht zur Entspannung und für Außenaktivitäten zur Verfügung.<br><br>
+		Wenn Sie mehr erfahren möchten, beleuchtet ein Rundgang die Architektur des Museums anhand von 10 Stationen und beginnt am Steinkreuz links hinter dem Museum, 
+		von wo es auch zur Fundstelle geht. Sie können den Rundgang hier starten:<br><br>
+		<a href="../rundgang/architektur_select_dialog.html" onclick="ChooseTour()" data-role="button" data-transition="fade">Rundgang starten</a>
+		<br><br>
+
+		<script src="../js/owl.carousel.js"></script>
+    
+		<script>
+    	$(document).ready(function() {
+    	$("#owl-bilder").owlCarousel({
+
+      	navigation : false,
+      	slideSpeed : 300,
+      	paginationSpeed : 400,
+      	singleItem : true
+
+		});
+    	});
+    	</script>
+	</div> 
+	
+	<script>
+		function ChooseTour() {
+			tour = 7; // Tour  = Architektur
+		}
+	</script>
+		
+</div> 

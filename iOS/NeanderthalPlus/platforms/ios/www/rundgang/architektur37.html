@@ -1,0 +1,73 @@
+<div data-role="page" id="Rundgang_Architektur09"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+		ga_storage._trackPageview('Architektur 09');
+	</script>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="architektur.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_architektur_09.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Architektur</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Obergeschoss II</h3>
+		
+		<br>
+		
+		Im Anschluss an die Dauerausstellung betritt der Besucher einen lichtdurchfluteten Bereich des sonst fensterlosen 
+		Gebäudes. Hier befindet sich das MuseumsCafé, das mit seiner geschosshohen Glasfront den Blick in Richtung der Fundstelle 
+		des Neanderthalers freigibt. Zusammen mit dem Museumsshop und dem Foyer im Erdgeschoss bildet dieser Teil des Gebäudes 
+		einen miteinander verzahnten Servicebereich, der im Idealfall den Start- und Endpunkt des Ausstellungsbesuchs bildet. 
+		Auch außerhalb der Öffnungszeiten des Museums ist dieser als eigenständiger Eventbereich für Veranstaltungen nutzbar.<br><br>
+		<i>Die letzte Station befindet sich ausserhalb vor dem rechten Eingang ins Museum</i>
+
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'architektur_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+		
+</div> 

@@ -1,0 +1,46 @@
+<div data-role="page" id="Rundgang_KunstwegSelectDialog"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #404040 !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Select Dialog');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+
+	
+	<div data-role="content">
+	<div id="close_button"><a href="#" data-rel="back" data-transition="fade" data-direction="reverse"><img src="../symb/close.svg"></a></div>
+		<h3 valign="center" style="color: #FFF"><!--<img src="../symb/test_collab.jpg">-->Art der Führung wählen</h3>
+		<br>
+		<a href="kunstweg_erkennung_beacons.html" data-transition="fade"><img src="../symb/btn_ble.svg"></a><br>
+		<div id="btn_info">Informationen zu den Kunstwerken werden vor Ort automatisch angezeigt. Bluetooth muss dafür eingeschaltet sein.</div>
+		<br><br>
+		<a href="kunstweg_qrreader.html" onclick="QR()" data-transition="fade"><img src="../symb/btn_qr.svg"></a>
+		<div id="btn_info">Gehen Sie auf eigene Faust über den Kunstweg und scannen Sie die Codes, um Informationen zu den Kunstwerken anzuzeigen.</div>
+		</div> 
+	
+		<script>
+		function QR() {
+			qr = "kunstweg";
+		}
+		</script>
+			
+</div> 

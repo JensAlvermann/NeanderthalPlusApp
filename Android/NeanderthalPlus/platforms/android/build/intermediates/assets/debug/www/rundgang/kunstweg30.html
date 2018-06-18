@@ -1,0 +1,87 @@
+<div data-role="page" id="Rundgang_Kunstweg04"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 04');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_04.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+	
+		<h3>Mutant</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Magdalena Abakanowicz</h3>
+		
+		<br>
+	
+		<audio controls>
+  			<source src="../audio/kunstweg04.m4a" type="audio/mp4">
+		</audio>
+	
+		<br><br>
+		
+		In einer Brennnessel-Lichtung hinter der Steinzeitwerkstatt steht auf einer Holzkiste die Arbeit von Magdalena Abakanowicz: 
+		Die Skulptur eines Vierbeiners mit dem Titel <b>Mutant</b>. Es stellt weder dieses, noch jenes Tier dar, es hat weder 
+		Augen noch Gesicht noch Charakter. Die Künstlerin hat für einen entscheidenden Ort der Menschheitsgeschichte und der 
+		Kulturgeschichte aus Stahlblech die Metapher für ein Wesen geschaffen, das der Mensch biologisch hervorbringen könnte. 
+		Damit wird dieses Bild zu einem Mahnbild. Der menschliche Eingriff in die Evolution ist möglich und liegt vor uns.
+	
+		<br><br>
+		
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Magdalena Abakanowicz</h3>
+		<p>wurde 1930 in Falenty, Polen geboren. Sie lebt und arbeitet in Warschau. Ihre Arbeiten sind meist raumgreifende 
+		Installationen, die bereits durch ihre Ausdehnung einen mahnenden Charakter tragen. Dimension und Botschaft 
+		verbindet Abakanowicz zu einem Konzept, das für den Betrachter unmittelbar erfahrbar wird.</p>
+		</div>
+		
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 	
+		
+</div> 

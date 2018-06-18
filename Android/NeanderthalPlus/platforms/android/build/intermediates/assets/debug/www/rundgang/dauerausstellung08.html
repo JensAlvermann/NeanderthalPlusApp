@@ -1,0 +1,78 @@
+<div data-role="page" id="Rundgang_Dauerausstellung08"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 08');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_08.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Steinschläger</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/dauerausstellung08.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Die frühesten Nachweise von Werkzeugen sind etwa 2,5 Millionen Jahre alt und Daten aus dem Übergangsbereich zwischen 
+		Australopithecinen und dem <i>Homo Habilis</i>. Die scharfen Kanten der ersten Steinwerkzeuge ermöglichten Menschen, Tiere zu 
+		zerlegen, Hütten zu bauen oder Kleidung zu schneidern. Mit Steinwerkzeugen wurden vor allem auch andere Werkzeuge 
+		hergestellt.<br>
+		So kam ein ständiger Prozess der Werkzeugherstellung durch Werkzeuge in Gang. Der Grundstein für unsere Sachkultur war gelegt.
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

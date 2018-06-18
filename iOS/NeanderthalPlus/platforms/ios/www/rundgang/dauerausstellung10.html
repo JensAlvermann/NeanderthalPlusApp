@@ -1,0 +1,107 @@
+<div data-role="page" id="Rundgang_Dauerausstellung10"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 10');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_10.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Schöpfungsmythen</h3>
+		
+		<br>
+		Lauschen Sie verschiedenen Schöpfungsmythen:
+		<br><br>
+		
+		<h3 style="color: #83a626; margin-bottom: 5px;">Schöpfungsmythos der Indianer</h3>
+		<audio controls>
+  			<source src="../audio/dauerausstellung11a.m4a" type="audio/mp4">
+		</audio>
+		<br>
+		
+		<h3 style="color: #83a626; margin-bottom: 5px;">Schöpfungsmythos der Edda</h3>
+		<audio controls>
+  			<source src="../audio/dauerausstellung11b.m4a" type="audio/mp4">
+		</audio>
+		<br>
+		
+		<h3 style="color: #83a626; margin-bottom: 5px;">Schöpfungsmythos der Mali</h3>
+		<audio controls>
+  			<source src="../audio/dauerausstellung11c.m4a" type="audio/mp4">
+		</audio>
+		<br>
+		
+		<h3 style="color: #83a626; margin-bottom: 5px;">Schöpfungsmythos der Maori</h3>
+		<audio controls>
+  			<source src="../audio/dauerausstellung11d.m4a" type="audio/mp4">
+		</audio>
+		<br>
+		
+		<h3 style="color: #83a626; margin-bottom: 5px;">Schöpfungsmythos der Shintois</h3>
+		<audio controls>
+  			<source src="../audio/dauerausstellung11e.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Seit Urzeiten denken Menschen über den Anfang der Welt und ihre eigene Herkunft nach. Ihre Deutungen haben sie in heilige 
+		Geschichten gefasst, von denen wir heute aus allen Kulturen eine unübersehbare Zahl kennen. In den Schöpfungsmythen 
+		schaffen Götter oder übermenschliche Wesen aus dem Chaos die Erde und bringen das Meer, Gebirge, Pflanzen, Tiere und 
+		schließlich den Menschen hervor.<br>
+		Die Erzählungen gelten als wahr. Sie werden von Generation zu Generation weitergegeben und bieten Orientierung in einer als 
+		geheimnisvoll und übermächtig empfundenen Welt. Anders als unsere modernen Theorien zur Entstehung der Welt durch den 
+		Urknall und die Evolution kommen diese Erzählungen ohne wissenschaftliche Belege aus. Mythen werden auch so geglaubt.
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+
+</div> 

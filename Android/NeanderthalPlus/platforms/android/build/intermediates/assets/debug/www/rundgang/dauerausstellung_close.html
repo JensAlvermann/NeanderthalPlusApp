@@ -1,0 +1,66 @@
+<div data-role="page" id="Rundgang_DauerausstellungClose"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Rundgang Dauerausstellung Close');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+	<div id="bild" style="background: url(../img/ausstellung_dauerausstellung.jpg) no-repeat; background-size: 100% 100%;"> 
+		<div id="contenttitle">
+		<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"><a href="dauerausstellung_select_dialog.html" onclick="ChooseTour()" data-transition="fade"><img src="../symb/rundgang.svg"></a></div>
+		</div>
+	</div>
+	<br>
+	<h3>Eine Zeitreise durch die Menschheitsgeschichte</h3>
+		Die Ausstellung erstreckt sich über vier Ebenen auf der allmählich nach oben ansteigenden Rampe.<br>
+		Am Beginn wird die Geschichte des Neandertals und die Fundgeschichte des Neanderthalerskeletts erzählt. 
+		Daran anschließend werden die entscheidenenden Abschnitte der Menschheitsgeschichte in einer Reise durch die Zeit vorgestellt".<br>
+		Darauf folgen fünf Themenbereiche, die einen chronologischen Abriss der Humanevolution geben und das komplexe Thema "Entwicklungsgeschichte 
+		der Menschheit" eingrenzen.<br>
+		Erleben Sie Ihren ganz individuellen Rundgang durch die Ausstellung:
+		<br><br>
+		<a href="dauerausstellung_select_dialog.html" onclick="ChooseTour()" data-role="button" data-transition="fade">Rundgang starten</a>
+		<br>
+		</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		delete tour;
+		} 
+		
+		function ChooseTour() {
+			tour = 5; // Tour 5 = Dauerausstellung
+		}
+	</script>
+	
+</div> 

@@ -1,0 +1,67 @@
+<div data-role="page" id="Rundgang_KunstwegClose"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Close');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+	<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg.jpg) no-repeat; background-size: 100% 100%;"> 
+		<div id="contenttitle">
+		<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"><a href="kunstweg_select_dialog.html" onclick="ChooseTour()" data-transition="fade"><img src="../symb/rundgang.svg"></a></div>
+		</div>
+	</div>
+		<br>
+	<h3>MenschenSpuren</h3>
+		Erleben Sie bei einem Spaziergang durch das Waldstück zwischen Museum 
+		und Wildgehege die Spannung von Mensch und Natur. Dafür ist der Kunstweg <i>MenschenSpuren</i> mit zehn Skulpturen 
+		eingerichtet worden.<br>
+		Die unterschiedlichen Kunstwerke fordern zur Selbstreflexion über die Natur des Menschen auf und sollen so zu einer 
+		neuen Betrachtungsweise der Natur leiten. Die Spuren der Künstler verbinden sich auf dem Rundgang entlang der Düssel 
+		in immer neuer Weise mit der Landschaft. Viele der Arbeiten müssen regelrecht entdeckt werden oder verändern ihren 
+		Zustand je nach Jahreszeit.
+		<br><br>
+		<a href="kunstweg_select_dialog.html" onclick="ChooseTour()" data-role="button" data-transition="fade">Rundgang starten</a>
+		<br>
+		</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		delete tour;
+		} 
+		
+		function ChooseTour() {
+			tour = 1; // Tour 1 = Kunstweg
+		}
+	</script>
+
+</div> 

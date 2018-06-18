@@ -1,0 +1,57 @@
+<div data-role="page" id="MeinMuseum_SocialMedia">
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Social Media');
+	</script>
+
+	<script>
+    function openExternal(elem) {
+        window.open(elem.href, "_system");
+        return false; // Prevent execution of the default onClick handler 
+    }
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="../rundgang/uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Mein Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/meinmuseum_socialmedia.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Teile Deinen Besuch</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		<br>
+		Erzähle Freunden und Bekannten bei Facebook und Twitter, dass Du im Neanderthal Museum bist! Wenn Dir Dein Besuch und die App gefallen, kannst Du das gleich hier posten.
+		<br><br>
+
+		<a href="https://www.facebook.com/dialog/feed?app_id=694165360698061&link=www.neanderthal.de&picture=app.art2media.de%2Fsocialmedia%2Fnm_facebook.jpg&name=Zeitreise%20erleben&caption=%20&description=Unweit%20des%20Ortes%2C%20an%20dem%20vor%20mehr%20als%20150%20Jahren%20der%20Neanderthaler%20gefunden%20wurde%2C%20steht%20heute%20eines%20der%20modernsten%20Museen%20Europas.%20Es%20erz%C3%A4hlt%20die%20Geschichte%20der%20Menschheit%20von%20den%20Anf%C3%A4ngen%20in%20den%20afrikanischen%20Savannen%20vor%20mehr%20als%20vier%20Millionen%20Jahren%20bis%20in%20die%20Gegenwart.&redirect_uri=http%3A%2F%2Fwww.facebook.com%2F" onClick="javascript:return openExternal(this)"><img src="../symb/facebook.svg"></a><br><br>
+		<a href="http://twitter.com/intent/tweet?text=@Neandertal1%20%23Neanderthal%2B" onClick="javascript:return openExternal(this)"><img src="../symb/tweet.svg"></a>
+		<br><br>
+	</div>
+		
+</div> 

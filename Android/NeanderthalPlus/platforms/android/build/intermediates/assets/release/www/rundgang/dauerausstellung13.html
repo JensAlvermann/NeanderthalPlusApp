@@ -1,0 +1,81 @@
+<div data-role="page" id="Rundgang_Dauerausstellung13"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Dauerausstellung 13');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="dauerausstellung.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundgang_dauerausstellung_13.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Dauerausstellung</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Östliche Religionen</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="http://app.art2media.de/audio/dauerausstellung14.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Im Vorderen Orient und in Ägypten entstanden vor 5.000 Jahren die ersten Hochreligionen. Sie waren eng mit dem Staat und 
+		seinem Herrscher verbunden.<br>
+		Den heutigen Weltreligionen Christentum, Islam, Judentum, Buddhismus, Hinduismus und Konfuzianismus gehören eta 70% der 
+		Weltbevölkerung an. Trotz unterschiedlicher Gottheiten, Bekenntnisse und Bräuche haben diese Religionen vieles gemeinsam: 
+		die heiligen Schriften mit zentralen Aussagen für das religiöse und persönliche Leben, die Priester, die sich ausschließlich 
+		der Religion und ihrer Vermittlung widmen, die monumentalen Bauwerke, in denen das Heilige seine irdische Heimat hat. Die 
+		meisten großen Glaubenssysteme kennen auch einen Stifter. Er hat seinen Anhängern das rechte Leben vorgelebt oder hat als 
+		„Gesandter Gottes“ dessen Wort verkündet.
+		
+		<br>
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'dauerausstellung_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+
+</div> 

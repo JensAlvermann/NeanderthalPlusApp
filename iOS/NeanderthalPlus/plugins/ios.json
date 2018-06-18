@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "cordova-plugin-estimote": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "com.mirasense.scanditsdk.plugin": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "at.modalog.cordova.plugin.cache": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        }
+    },
+    "dependent_plugins": {}
+}

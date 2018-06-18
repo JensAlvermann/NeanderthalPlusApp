@@ -1,0 +1,88 @@
+<div data-role="page" id="RundumsMuseum_Wildgehege"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Wildgehege');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="../rundgang/uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="owl-bilder" class="owl-carousel_slim">
+
+                <div class="item">
+					<img src="../img/rundumsmuseum_wildgehege_01.jpg"></img>
+				</div>
+				
+				<div class="item">
+					<img src="../img/rundumsmuseum_wildgehege_02.jpg"></img>
+				</div>
+				
+				<div class="item">
+					<img src="../img/rundumsmuseum_wildgehege_03.jpg"></img>
+				</div>
+		</div>
+	
+	<div id="bild_slide">
+		<div id="contenttitle">
+			<div id="titletext">Wildgehege</div><div id="feature" style="background: #00305d"><img src="../symb/swipe.svg"></div>
+		</div>
+	</div>
+	
+		<br>
+		<h3>Eiszeitliche Tierwelt erleben</h3>
+		Seltene Tiere der Eiszeit artgerecht zu halten, das hat sich das Wildgehege Neandertal zur Aufgabe gemacht. Und das schon seit 1935, dem Jahr der Gründung 
+		durch den Naturschutzverein Neandertal. In den großen und weitläufigen Freigehegen leben heute Wisente sowie Nachzüchtungen von Auerochsen und Tarpanen 
+		(Wildpferde), die während der letzten Eiszeit in Europa lebten.<br>
+		Sie sind die Vorfahren unserer heutigen Hausrinder und Pferde, so dass die heute lebenden Tiere das Erbgut der ausgestorbenen Tiere in sich tragen. 
+		Durch Kreuzung ursprünglicher Rassen konnten Tiere gezüchtet werden, die ihren Vorfahren sehr ähnlich sind. Begegnen Sie den Tieren bei einem Rundgang um 
+		das eiszeitliche Wildgehege.<br>
+				
+	</div>
+	
+	<br>
+	<br>
+
+	<script src="../js/owl.carousel.js"></script>
+    
+
+    <script>
+    $(document).ready(function() {
+      $("#owl-bilder").owlCarousel({
+
+      navigation : false,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+      });
+    });
+    </script>
+	
+	</div> 
+	
+</div> 

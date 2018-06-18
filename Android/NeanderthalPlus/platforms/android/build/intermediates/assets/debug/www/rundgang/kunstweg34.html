@@ -1,0 +1,89 @@
+<div data-role="page" id="Rundgang_Kunstweg08"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 08');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_08.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Bugatti Bench</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Ian Hamilton Finlay</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/kunstweg08.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Die Bank am Wegesrand über der ehemaligen Furt durch die Düssel ist ein Werk von Ian Hamilton Finlay. Dieses kleine, 
+		bescheidene Kunstwerk von Finlay kann als solches leicht übersehen werden. In seiner <b>Bugatti Bench</b> ist der 
+		Vers <i>BARE STREAM RACING LIKE A BUGATTI</i> eingemeißelt. Der aufmerksame Betrachter wird vielleicht durch die absurde 
+		Inschrift irritiert. Mit seinen Arbeiten besetzt Finlay Orte mit Worten, die zumeist auf schlichten Gegenständen 
+		eingemeißelt sind. Dadurch erhalten die Orte eine poetische Aura, werden zu einem Raumbild. Der Betrachter erhält 
+		von Finlay eine literarische Gebrauchsanweisung für den Ort.<br>
+		
+		<br><br>
+		
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Ian Hamilton Finlay</h3>
+		<p>wurde 1925 auf den Bahamas geboren und starb 2007 in Edinburgh. Er lebte bis zu seinem Tod in Stonypath bei 
+		Edinburgh. Ian Hamilton Finlay war Dichter und bildender Künstler in einer Person. Er pochte auf den traditionellen 
+		Sinn des Kunstwerks als Träger von inhalten. In seinen Arbeiten setzte er sich intensiv mit dem Naturbild des 
+		Menschen und seinem Wandel auseinander.</p>
+		</div>
+	
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

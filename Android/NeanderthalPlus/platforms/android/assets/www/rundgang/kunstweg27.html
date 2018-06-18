@@ -1,0 +1,87 @@
+<div data-role="page" id="Rundgang_Kunstweg01"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 01');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_01.jpg) no-repeat; background-size: 100% 100%;"> 
+			<div id="contenttitle">
+			<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+	
+		<h3>The Man who never ceased to grow</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Zadok Ben-David</h3>
+	
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/kunstweg01.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Am Anfang des Rundwegs erwartet den Besucher <b>The Man who never ceased to grow</b> von Zadok Ben-David. Eine Reihe von 
+		größer werdenden Neandertaler-Silhouetten aus Stahlplatten geschnitten. Ben-David hat die populärwissenschaftliche 
+		Zeichnung des ausgestorbenen Neandertalers aus einem Time-Life Magazin der 1930er Jahre als Vorlage verwendet. Er hat 
+		ein ironisches und hintersinniges Bild des Evolutionsgedankens geschaffen, das Entwicklung und Fortschritt auf den Arm 
+		nimmt.
+		
+		<br><br>
+		
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Zadok Ben-David</h3>
+		<p>wurde 1949 in Bayhan Jemen geboren. Er lebt und arbeitet in London und Tel Aviv. Seit vielen Jahren beschäftigt
+		Zadok Ben-David sich mit der Humanevolution, indem er Zeichnungen aus unterschiedlichen Kontexten verwendet und in 
+		dreidimensionale Skulpturen transformiert. Ein wiederkehrendes Element ist die Evolutionsreihe.</p>
+		</div>
+		
+		<br>
+		
+	</div> 
+		
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

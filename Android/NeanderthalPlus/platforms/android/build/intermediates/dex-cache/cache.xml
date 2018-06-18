@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cf729d9c4a96171c9dbcc48992676663b78c35bb">
+        <dex dex="/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/pre-dexed/release/CordovaLib-unspecified-release_005aa19bed5164cb35339eae8d9d860a6ea856bb.jar" />
+    </item>
+    <item
+        jar="/Users/Jens/Desktop/NeanderthalPlus/platforms/android/libs/com.google.zxing.client.android.captureactivity.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="37a7fe2fa2cf07d69104489067f8bc77b781f6b8">
+        <dex dex="/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/pre-dexed/release/com.google.zxing.client.android.captureactivity_99e5d39009cb7d3efbf373d6b172548d030031af.jar" />
+    </item>
+    <item
+        jar="/Users/Jens/Desktop/NeanderthalPlus/platforms/android/libs/estimote-sdk-preview.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ed3e9176e378892ef777b55a631bbf477af0c237">
+        <dex dex="/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/pre-dexed/release/estimote-sdk-preview_e6d6a88c3f8914c480a88645781f4c8c13d20011.jar" />
+    </item>
+
+</items>

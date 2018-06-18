@@ -1,0 +1,117 @@
+body {
+	background: transparent;
+}
+
+#setting {
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+}
+
+#hauptmenu {
+	position: absolute;
+	background: transparent;
+	width: 240px;
+	top: 45px;
+	margin-left: 15px;
+	float:left;
+	clear:both;
+}
+
+#space{
+	height: 8px;
+}
+
+#sa_umblaettern {
+	position: absolute;
+	float: right;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1;
+}
+
+#sa_umblaettern img{
+	margin-bottom: -5px;
+	height: 175px;
+}
+
+#karte_info {
+	width:100%;
+	position: absolute;
+	float: right;
+	top: 340px;
+	right: 0px;
+	z-index: 1;
+	background-color: #FFF;
+}
+
+#karte_info img{
+padding: 10px;
+margin-top: 5px;
+width: 100%;
+}
+
+
+.startbg {
+    background : transparent url(../img/start_bg.jpg) 0 0 no-repeat fixed;
+    background-size: 200% 100%;
+}
+
+/* Personifkation*/
+
+#close_button {
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	float: left;
+	top: 15px;
+	right: 15px;
+	z-index: 1;
+}
+
+#owl-demo .item{
+	display: block;
+	width: 95%;		
+}
+
+#personification_svg {
+	position: absolute;
+	left: 5%;
+	top: 225px;
+	width: 85%;
+	height: 175px;
+	background: transparent url(../symb/swipe.svg) no-repeat left top;
+	background-size: 100% auto;
+}
+
+#ble_suche_icon{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 85%;
+	height: 475px;
+	background: transparent url(../symb/ble_hand.svg) no-repeat right bottom;
+	background-size: 100% auto;
+}
+
+#qr_suche_icon{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 85%;
+	height: 475px;
+	background: transparent url(../symb/qr_hand.svg) no-repeat right bottom;
+	background-size: 100% auto;
+}
+
+/* BLE/QR Select */
+
+#btn_info {
+	color: #FFF;
+	margin-top: -25px;
+	width: 75%;
+}
+
+

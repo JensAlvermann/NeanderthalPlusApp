@@ -1,0 +1,69 @@
+<div data-role="page" id="AppFeatures"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background: url(../img/appfeature_bg.jpg) no-repeat 100% 100% !important;
+	}
+	</style>
+	
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('App Features');
+	</script>
+
+	
+	<div data-role="content">
+		<div id="close_button"><a href="../index.html" data-transition="slide" data-direction="reverse"><img src="../symb/close.svg"></a></div>
+		<div id="appfeature">
+		<div id="owl-features" class="owl-carousel_full">
+		
+				<div class="item">
+					<img src="../img/appfeature_01.png"></img>
+					<div id="appfeature_text"><b>Interaktive Rundgänge</b><br>Erleben Sie Ihre persönliche Tour in der <br>Ausstellung und rund ums Museum</div>
+				</div>
+                
+                <div class="item">
+					<img src="../img/appfeature_02.png"></img>
+					<div id="appfeature_text"><b>Museum an berühmtem Ort</b><br>Erfahren Sie Wissenswertes über das <br>Neanderthal Museum heute und früher</div>
+				</div>
+                
+				<div class="item">
+					<img src="../img/appfeature_03.png"></img>
+					<div id="appfeature_text"><b>Treten Sie in Kontakt mit dem Museum</b><br>Teilen Sie Ihren Museumsbesuch, geben Sie Feedback und erhalten Sie exklusive Angebote</div>
+				</div>
+				
+				<div class="item">
+					<img src="../img/appfeature_04.png"></img>
+					<div id="appfeature_text"><b>Verpassen Sie kein Event</b><br>Alle anstehenden Veranstaltungen im <br>Museum auf einen Blick</div>
+				</div>
+				
+				<div class="item">
+					<img src="../img/appfeature_05.png"></img>
+					<div id="appfeature_text"><b>Entdecken Sie mehr</b><br>Hinter den Symbolen in der blauen Box<br>verbirgt sich mehr Inhalt</div>
+				</div>
+		</div>
+		</div>		
+		</div>
+			  
+		<br>
+
+		<script src="../js/owl.carousel.js"></script>
+    
+
+   		<script>
+    	$(document).ready(function() {
+      	$("#owl-features").owlCarousel({
+
+      	navigation : false,
+      	slideSpeed : 300,
+      	paginationSpeed : 400,
+      	singleItem : true
+
+	    });
+		});
+    	</script>
+
+	</div>	
+</div> 

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/release/xml/config.xml",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/release/xml/preferences.xml",
+        "source": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/xml/preferences.xml"
+    }
+]

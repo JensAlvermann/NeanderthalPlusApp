@@ -1,0 +1,61 @@
+<div data-role="page" id="Rundgang_Architektur"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Rundgang Architektur');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/dasmuseum_architektur_02.jpg) no-repeat; background-size: 100% 100%;"> 
+			<div id="contenttitle">
+			<div id="titletext">Architektur</div><div id="feature" style="background: #00305d"><a href="architektur_select_dialog.html" onclick="ChooseTour()" data-transition="fade"><img src="../symb/rundgang.svg"></a></div>
+		</div>
+	</div>
+	
+	<br>
+	
+	<h3>Faszinierende Architektur für die Evolutionsgeschichte des Menschen</h3>
+		Der architektonische Entwurf des Neanderthal Museums stammt von Günter Zamp Kelp, Julius Krauss und Arno Brandlhuber: 
+		Im Zentrum des Gebäudes steht dabei eine langsam aus der Erde steigende Rampe, die sich über vier Ebenen erstreckt - 
+		ein Sinnbild der Urform allen Lebens, der spiralförmigen Doppelhelix der DNA. Die Architektur des Neanderthal Museums 
+		wurde mehrfach ausgezeichnet. <br>Dieser Rundgang beleuchtet die architektonischen Aspekte des Museums anhand von 10 
+		Stationen und beginnt am Steinkreuz links hinter dem Museum, von wo es auch zur Fundstelle geht.
+		<br><br>
+		<a href="architektur_select_dialog.html" onclick="ChooseTour()" data-role="button" data-transition="fade">Rundgang starten</a>
+		<br>
+		</div> 
+	
+	<script>
+		function ChooseTour() {
+			tour = 7; // Tour  = Architektur
+		}
+	</script>
+	
+</div> 

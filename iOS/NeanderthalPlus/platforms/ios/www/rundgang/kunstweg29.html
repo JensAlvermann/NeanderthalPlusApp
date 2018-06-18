@@ -1,0 +1,87 @@
+<div data-role="page" id="Rundgang_Kunstweg03"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 03');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_03.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="contenttitle">
+			<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h3>Seele</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Jaume Plensa</h3>
+	
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/kunstweg03.m4a" type="audio/mp4">
+		</audio>
+	
+		<br><br>
+		
+		Schon als Jugendlicher war Jaume Plensa von der Welt des Neandertalers fasziniert, ohne zu wissen, dass es einen Ort 
+		mit diesem Namen gibt. In der Lichtung schräg gegenüber dem Mutanten steht nun sein Fragezeichen aus Aluminium mit dem 
+		Titel <b>Seele</b>?. Plensa hat ein abstraktes Zeichen unseres schriftlichen Kommunikationssystems als Skulptur realisiert. 
+		Die Frage nach der Seele ist für Plensa die Frage nach den "letzten Dingen", nach dem Wesen des Menschen. Sie bleibt für 
+		ihn eine Frage ohne Erwartung einer Antwort. 
+	
+		<br><br>
+
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Jaume Plensa</h3>
+		<p>wurde 1955 in Barcelona geboren wo er auch heute lebt und arbeitet. Seine Arbeiten beeindrucken auf der einen 
+		Seite durch ihre Masse und physische Präsenz. Auf der anderen Seite spielt Jaume Plensa hintergründig mit Begriffen 
+		aus der Soziologie und Philosophie.</p>
+		</div>
+
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+	
+</div> 

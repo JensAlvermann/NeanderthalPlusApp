@@ -1,0 +1,2287 @@
+[
+    {
+        "outputFile": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/build/intermediates/res/merged/release/values-el/values-el.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 692,
+                        "endColumn": 51,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 62,
+                    "endOffset": 167
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 744,
+                        "endColumn": 60,
+                        "endOffset": 802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 172,
+                    "endColumn": 71,
+                    "endOffset": 239
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 805,
+                        "endColumn": 69,
+                        "endOffset": 872
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 244,
+                    "endColumn": 67,
+                    "endOffset": 307
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 875,
+                        "endColumn": 65,
+                        "endOffset": 938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 312,
+                    "endColumn": 44,
+                    "endOffset": 352
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 941,
+                        "endColumn": 42,
+                        "endOffset": 981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 357,
+                    "endColumn": 64,
+                    "endOffset": 417
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 984,
+                        "endColumn": 62,
+                        "endOffset": 1044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 422,
+                    "endColumn": 49,
+                    "endOffset": 467
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 1047,
+                        "endColumn": 47,
+                        "endOffset": 1092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 472,
+                    "endColumn": 74,
+                    "endOffset": 542
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1095,
+                        "endColumn": 72,
+                        "endOffset": 1165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 547,
+                    "endColumn": 53,
+                    "endOffset": 596
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 2,
+                        "startOffset": 1168,
+                        "endColumn": 51,
+                        "endOffset": 1217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 601,
+                    "endColumn": 45,
+                    "endOffset": 642
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1220,
+                        "endColumn": 43,
+                        "endOffset": 1261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 647,
+                    "endColumn": 55,
+                    "endOffset": 698
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 2,
+                        "startOffset": 1264,
+                        "endColumn": 53,
+                        "endOffset": 1315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 703,
+                    "endColumn": 69,
+                    "endOffset": 768
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 2,
+                        "startOffset": 1318,
+                        "endColumn": 67,
+                        "endOffset": 1383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 773,
+                    "endColumn": 57,
+                    "endOffset": 826
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 2,
+                        "startOffset": 1386,
+                        "endColumn": 55,
+                        "endOffset": 1439
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 831,
+                    "endColumn": 51,
+                    "endOffset": 878
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 2,
+                        "startOffset": 1442,
+                        "endColumn": 49,
+                        "endOffset": 1489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 883,
+                    "endColumn": 40,
+                    "endOffset": 919
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 2,
+                        "startOffset": 1492,
+                        "endColumn": 38,
+                        "endOffset": 1528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 924,
+                    "endColumn": 63,
+                    "endOffset": 983
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 2,
+                        "startOffset": 1531,
+                        "endColumn": 61,
+                        "endOffset": 1590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 988,
+                    "endColumn": 69,
+                    "endOffset": 1053
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 2,
+                        "startOffset": 1593,
+                        "endColumn": 67,
+                        "endOffset": 1658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1058,
+                    "endColumn": 78,
+                    "endOffset": 1132
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 2,
+                        "startOffset": 1661,
+                        "endColumn": 76,
+                        "endOffset": 1735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1137,
+                    "endColumn": 53,
+                    "endOffset": 1186
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 2,
+                        "startOffset": 1738,
+                        "endColumn": 51,
+                        "endOffset": 1787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1191,
+                    "endColumn": 63,
+                    "endOffset": 1250
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 2,
+                        "startOffset": 1790,
+                        "endColumn": 61,
+                        "endOffset": 1849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1255,
+                    "endColumn": 67,
+                    "endOffset": 1318
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 2,
+                        "startOffset": 1852,
+                        "endColumn": 65,
+                        "endOffset": 1915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1323,
+                    "endColumn": 63,
+                    "endOffset": 1382
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 2,
+                        "startOffset": 1918,
+                        "endColumn": 61,
+                        "endOffset": 1977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1387,
+                    "endColumn": 59,
+                    "endOffset": 1442
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 2,
+                        "startOffset": 1980,
+                        "endColumn": 57,
+                        "endOffset": 2035
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1447,
+                    "endColumn": 54,
+                    "endOffset": 1497
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 2,
+                        "startOffset": 2038,
+                        "endColumn": 52,
+                        "endOffset": 2088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1502,
+                    "endColumn": 55,
+                    "endOffset": 1553
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 2,
+                        "startOffset": 2091,
+                        "endColumn": 53,
+                        "endOffset": 2142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1558,
+                    "endColumn": 49,
+                    "endOffset": 1603
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 2,
+                        "startOffset": 2145,
+                        "endColumn": 47,
+                        "endOffset": 2190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1608,
+                    "endColumn": 61,
+                    "endOffset": 1665
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 2,
+                        "startOffset": 2193,
+                        "endColumn": 59,
+                        "endOffset": 2250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1670,
+                    "endColumn": 57,
+                    "endOffset": 1723
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 2,
+                        "startOffset": 2253,
+                        "endColumn": 55,
+                        "endOffset": 2306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1728,
+                    "endColumn": 63,
+                    "endOffset": 1787
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 2,
+                        "startOffset": 2309,
+                        "endColumn": 61,
+                        "endOffset": 2368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1792,
+                    "endColumn": 58,
+                    "endOffset": 1846
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 2,
+                        "startOffset": 2371,
+                        "endColumn": 56,
+                        "endOffset": 2425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1851,
+                    "endColumn": 71,
+                    "endOffset": 1918
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 2,
+                        "startOffset": 2428,
+                        "endColumn": 69,
+                        "endOffset": 2495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1923,
+                    "endColumn": 51,
+                    "endOffset": 1970
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 2,
+                        "startOffset": 2498,
+                        "endColumn": 49,
+                        "endOffset": 2545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1975,
+                    "endColumn": 53,
+                    "endOffset": 2024
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 2,
+                        "startOffset": 2548,
+                        "endColumn": 51,
+                        "endOffset": 2597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2029,
+                    "endColumn": 54,
+                    "endOffset": 2079
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 2,
+                        "startOffset": 2600,
+                        "endColumn": 52,
+                        "endOffset": 2650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2084,
+                    "endColumn": 67,
+                    "endOffset": 2147
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 2,
+                        "startOffset": 2653,
+                        "endColumn": 65,
+                        "endOffset": 2716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2152,
+                    "endColumn": 65,
+                    "endOffset": 2213
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 2,
+                        "startOffset": 2719,
+                        "endColumn": 63,
+                        "endOffset": 2780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2218,
+                    "endColumn": 72,
+                    "endOffset": 2286
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 2,
+                        "startOffset": 2783,
+                        "endColumn": 70,
+                        "endOffset": 2851
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2291,
+                    "endColumn": 46,
+                    "endOffset": 2333
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 2,
+                        "startOffset": 2854,
+                        "endColumn": 44,
+                        "endOffset": 2896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2338,
+                    "endColumn": 86,
+                    "endOffset": 2420
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 2,
+                        "startOffset": 2899,
+                        "endColumn": 84,
+                        "endOffset": 2981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2425,
+                    "endColumn": 59,
+                    "endOffset": 2480
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 2,
+                        "startOffset": 2984,
+                        "endColumn": 57,
+                        "endOffset": 3039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2485,
+                    "endColumn": 50,
+                    "endOffset": 2531
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 2,
+                        "startOffset": 3042,
+                        "endColumn": 48,
+                        "endOffset": 3088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2536,
+                    "endColumn": 68,
+                    "endOffset": 2600
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 2,
+                        "startOffset": 3091,
+                        "endColumn": 66,
+                        "endOffset": 3155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2605,
+                    "endColumn": 66,
+                    "endOffset": 2667
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 2,
+                        "startOffset": 3158,
+                        "endColumn": 64,
+                        "endOffset": 3220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2672,
+                    "endColumn": 45,
+                    "endOffset": 2713
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 2,
+                        "startOffset": 3223,
+                        "endColumn": 43,
+                        "endOffset": 3264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2718,
+                    "endColumn": 49,
+                    "endOffset": 2763
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 2,
+                        "startOffset": 3267,
+                        "endColumn": 47,
+                        "endOffset": 3312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2768,
+                    "endColumn": 51,
+                    "endOffset": 2815
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 2,
+                        "startOffset": 3315,
+                        "endColumn": 49,
+                        "endOffset": 3362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2820,
+                    "endColumn": 50,
+                    "endOffset": 2866
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 2,
+                        "startOffset": 3365,
+                        "endColumn": 48,
+                        "endOffset": 3411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2871,
+                    "endColumn": 106,
+                    "endOffset": 2973
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 2,
+                        "startOffset": 3414,
+                        "endColumn": 104,
+                        "endOffset": 3516
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2978,
+                    "endColumn": 143,
+                    "endOffset": 3117
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 2,
+                        "startOffset": 3519,
+                        "endColumn": 141,
+                        "endOffset": 3658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3122,
+                    "endColumn": 57,
+                    "endOffset": 3175
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 2,
+                        "startOffset": 3661,
+                        "endColumn": 55,
+                        "endOffset": 3714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3180,
+                    "endColumn": 53,
+                    "endOffset": 3229
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 2,
+                        "startOffset": 3717,
+                        "endColumn": 51,
+                        "endOffset": 3766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3234,
+                    "endColumn": 56,
+                    "endOffset": 3286
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 2,
+                        "startOffset": 3769,
+                        "endColumn": 54,
+                        "endOffset": 3821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3291,
+                    "endColumn": 108,
+                    "endOffset": 3395
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 2,
+                        "startOffset": 3824,
+                        "endColumn": 106,
+                        "endOffset": 3928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3400,
+                    "endColumn": 48,
+                    "endOffset": 3444
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 2,
+                        "startOffset": 3931,
+                        "endColumn": 46,
+                        "endOffset": 3975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3449,
+                    "endColumn": 50,
+                    "endOffset": 3495
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 2,
+                        "startOffset": 3978,
+                        "endColumn": 48,
+                        "endOffset": 4024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3500,
+                    "endColumn": 108,
+                    "endOffset": 3604
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 2,
+                        "startOffset": 4027,
+                        "endColumn": 106,
+                        "endOffset": 4131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3609,
+                    "endColumn": 57,
+                    "endOffset": 3662
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 2,
+                        "startOffset": 4134,
+                        "endColumn": 55,
+                        "endOffset": 4187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3667,
+                    "endColumn": 73,
+                    "endOffset": 3736
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 2,
+                        "startOffset": 4190,
+                        "endColumn": 71,
+                        "endOffset": 4259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3741,
+                    "endColumn": 97,
+                    "endOffset": 3834
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 2,
+                        "startOffset": 4262,
+                        "endColumn": 95,
+                        "endOffset": 4355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3839,
+                    "endColumn": 208,
+                    "endOffset": 4043
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 2,
+                        "startOffset": 4358,
+                        "endColumn": 206,
+                        "endOffset": 4562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 4048,
+                    "endColumn": 148,
+                    "endOffset": 4192
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 2,
+                        "startOffset": 4565,
+                        "endColumn": 146,
+                        "endOffset": 4709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 4197,
+                    "endColumn": 54,
+                    "endOffset": 4247
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 2,
+                        "startOffset": 4712,
+                        "endColumn": 52,
+                        "endOffset": 4762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 4252,
+                    "endColumn": 92,
+                    "endOffset": 4340
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 2,
+                        "startOffset": 4765,
+                        "endColumn": 90,
+                        "endOffset": 4853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 4345,
+                    "endColumn": 84,
+                    "endOffset": 4425
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 2,
+                        "startOffset": 4856,
+                        "endColumn": 82,
+                        "endOffset": 4936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4430,
+                    "endColumn": 71,
+                    "endOffset": 4497
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 2,
+                        "startOffset": 4939,
+                        "endColumn": 69,
+                        "endOffset": 5006
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 4502,
+                    "endColumn": 47,
+                    "endOffset": 4545
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 2,
+                        "startOffset": 5009,
+                        "endColumn": 45,
+                        "endOffset": 5052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 4550,
+                    "endColumn": 56,
+                    "endOffset": 4602
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 2,
+                        "startOffset": 5055,
+                        "endColumn": 54,
+                        "endOffset": 5107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4607,
+                    "endColumn": 74,
+                    "endOffset": 4677
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 2,
+                        "startOffset": 5110,
+                        "endColumn": 72,
+                        "endOffset": 5180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 4682,
+                    "endColumn": 78,
+                    "endOffset": 4756
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 2,
+                        "startOffset": 5183,
+                        "endColumn": 76,
+                        "endOffset": 5257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4761,
+                    "endColumn": 63,
+                    "endOffset": 4820
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 2,
+                        "startOffset": 5260,
+                        "endColumn": 61,
+                        "endOffset": 5319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 4825,
+                    "endColumn": 159,
+                    "endOffset": 4980
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 2,
+                        "startOffset": 5322,
+                        "endColumn": 157,
+                        "endOffset": 5477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 4985,
+                    "endColumn": 101,
+                    "endOffset": 5082
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 2,
+                        "startOffset": 5480,
+                        "endColumn": 99,
+                        "endOffset": 5577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 5087,
+                    "endColumn": 88,
+                    "endOffset": 5171
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 2,
+                        "startOffset": 5580,
+                        "endColumn": 86,
+                        "endOffset": 5664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 5176,
+                    "endColumn": 52,
+                    "endOffset": 5224
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 2,
+                        "startOffset": 5667,
+                        "endColumn": 50,
+                        "endOffset": 5715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 5229,
+                    "endColumn": 85,
+                    "endOffset": 5310
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 2,
+                        "startOffset": 5718,
+                        "endColumn": 83,
+                        "endOffset": 5799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 5315,
+                    "endColumn": 88,
+                    "endOffset": 5399
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 2,
+                        "startOffset": 5802,
+                        "endColumn": 86,
+                        "endOffset": 5886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5404,
+                    "endColumn": 92,
+                    "endOffset": 5492
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 2,
+                        "startOffset": 5889,
+                        "endColumn": 90,
+                        "endOffset": 5977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 5497,
+                    "endColumn": 109,
+                    "endOffset": 5602
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 2,
+                        "startOffset": 5980,
+                        "endColumn": 107,
+                        "endOffset": 6085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 5607,
+                    "endColumn": 88,
+                    "endOffset": 5691
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 2,
+                        "startOffset": 6088,
+                        "endColumn": 86,
+                        "endOffset": 6172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 5696,
+                    "endColumn": 86,
+                    "endOffset": 5778
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 2,
+                        "startOffset": 6175,
+                        "endColumn": 84,
+                        "endOffset": 6257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 5783,
+                    "endColumn": 145,
+                    "endOffset": 5924
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 2,
+                        "startOffset": 6260,
+                        "endColumn": 143,
+                        "endOffset": 6401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 5929,
+                    "endColumn": 85,
+                    "endOffset": 6010
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 2,
+                        "startOffset": 6404,
+                        "endColumn": 83,
+                        "endOffset": 6485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 6015,
+                    "endColumn": 67,
+                    "endOffset": 6078
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 2,
+                        "startOffset": 6488,
+                        "endColumn": 65,
+                        "endOffset": 6551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 6083,
+                    "endColumn": 76,
+                    "endOffset": 6155
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 2,
+                        "startOffset": 6554,
+                        "endColumn": 74,
+                        "endOffset": 6626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 6160,
+                    "endColumn": 64,
+                    "endOffset": 6220
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 2,
+                        "startOffset": 6629,
+                        "endColumn": 62,
+                        "endOffset": 6689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 6225,
+                    "endColumn": 88,
+                    "endOffset": 6309
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 2,
+                        "startOffset": 6692,
+                        "endColumn": 86,
+                        "endOffset": 6776
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 6314,
+                    "endColumn": 119,
+                    "endOffset": 6429
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 2,
+                        "startOffset": 6779,
+                        "endColumn": 117,
+                        "endOffset": 6894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 6434,
+                    "endColumn": 90,
+                    "endOffset": 6520
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 2,
+                        "startOffset": 6897,
+                        "endColumn": 88,
+                        "endOffset": 6983
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 6525,
+                    "endColumn": 73,
+                    "endOffset": 6594
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 2,
+                        "startOffset": 6986,
+                        "endColumn": 71,
+                        "endOffset": 7055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 6599,
+                    "endColumn": 174,
+                    "endOffset": 6769
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 2,
+                        "startOffset": 7058,
+                        "endColumn": 172,
+                        "endOffset": 7228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 6774,
+                    "endColumn": 80,
+                    "endOffset": 6850
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 2,
+                        "startOffset": 7231,
+                        "endColumn": 78,
+                        "endOffset": 7307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 6855,
+                    "endColumn": 71,
+                    "endOffset": 6922
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 2,
+                        "startOffset": 7310,
+                        "endColumn": 69,
+                        "endOffset": 7377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 6927,
+                    "endColumn": 54,
+                    "endOffset": 6977
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 2,
+                        "startOffset": 7380,
+                        "endColumn": 52,
+                        "endOffset": 7430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 6982,
+                    "endColumn": 60,
+                    "endOffset": 7038
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 2,
+                        "startOffset": 7433,
+                        "endColumn": 58,
+                        "endOffset": 7489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 7043,
+                    "endColumn": 133,
+                    "endOffset": 7172
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 2,
+                        "startOffset": 7492,
+                        "endColumn": 131,
+                        "endOffset": 7621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 7177,
+                    "endColumn": 90,
+                    "endOffset": 7263
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 2,
+                        "startOffset": 7624,
+                        "endColumn": 88,
+                        "endOffset": 7710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 7268,
+                    "endColumn": 76,
+                    "endOffset": 7340
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 2,
+                        "startOffset": 7713,
+                        "endColumn": 74,
+                        "endOffset": 7785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 7345,
+                    "endColumn": 95,
+                    "endOffset": 7436
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 2,
+                        "startOffset": 7788,
+                        "endColumn": 93,
+                        "endOffset": 7879
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 7441,
+                    "endColumn": 70,
+                    "endOffset": 7507
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 2,
+                        "startOffset": 7882,
+                        "endColumn": 68,
+                        "endOffset": 7948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 7512,
+                    "endColumn": 136,
+                    "endOffset": 7644
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 2,
+                        "startOffset": 7951,
+                        "endColumn": 134,
+                        "endOffset": 8083
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 7649,
+                    "endColumn": 93,
+                    "endOffset": 7738
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 2,
+                        "startOffset": 8086,
+                        "endColumn": 91,
+                        "endOffset": 8175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 7743,
+                    "endColumn": 77,
+                    "endOffset": 7816
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 2,
+                        "startOffset": 8178,
+                        "endColumn": 75,
+                        "endOffset": 8251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 7821,
+                    "endColumn": 106,
+                    "endOffset": 7923
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 2,
+                        "startOffset": 8254,
+                        "endColumn": 104,
+                        "endOffset": 8356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 7928,
+                    "endColumn": 60,
+                    "endOffset": 7984
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 2,
+                        "startOffset": 8359,
+                        "endColumn": 58,
+                        "endOffset": 8415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 7989,
+                    "endColumn": 75,
+                    "endOffset": 8060
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 2,
+                        "startOffset": 8418,
+                        "endColumn": 73,
+                        "endOffset": 8489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 8065,
+                    "endColumn": 70,
+                    "endOffset": 8131
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 2,
+                        "startOffset": 8492,
+                        "endColumn": 68,
+                        "endOffset": 8558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 8136,
+                    "endColumn": 62,
+                    "endOffset": 8194
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 2,
+                        "startOffset": 8561,
+                        "endColumn": 60,
+                        "endOffset": 8619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 8199,
+                    "endColumn": 73,
+                    "endOffset": 8268
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 2,
+                        "startOffset": 8622,
+                        "endColumn": 71,
+                        "endOffset": 8691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 8273,
+                    "endColumn": 54,
+                    "endOffset": 8323
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 2,
+                        "startOffset": 8694,
+                        "endColumn": 52,
+                        "endOffset": 8744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 8328,
+                    "endColumn": 57,
+                    "endOffset": 8381
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 2,
+                        "startOffset": 8747,
+                        "endColumn": 55,
+                        "endOffset": 8800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 8386,
+                    "endColumn": 60,
+                    "endOffset": 8442
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 2,
+                        "startOffset": 8803,
+                        "endColumn": 58,
+                        "endOffset": 8859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 8447,
+                    "endColumn": 55,
+                    "endOffset": 8498
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 2,
+                        "startOffset": 8862,
+                        "endColumn": 53,
+                        "endOffset": 8913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 8503,
+                    "endColumn": 55,
+                    "endOffset": 8554
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 2,
+                        "startOffset": 8916,
+                        "endColumn": 53,
+                        "endOffset": 8967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 8559,
+                    "endColumn": 60,
+                    "endOffset": 8615
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 2,
+                        "startOffset": 8970,
+                        "endColumn": 58,
+                        "endOffset": 9026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 8620,
+                    "endColumn": 64,
+                    "endOffset": 8680
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 2,
+                        "startOffset": 9029,
+                        "endColumn": 62,
+                        "endOffset": 9089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 8685,
+                    "endColumn": 61,
+                    "endOffset": 8742
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 2,
+                        "startOffset": 9092,
+                        "endColumn": 59,
+                        "endOffset": 9149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 8747,
+                    "endColumn": 63,
+                    "endOffset": 8806
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 2,
+                        "startOffset": 9152,
+                        "endColumn": 61,
+                        "endOffset": 9211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 8811,
+                    "endColumn": 84,
+                    "endOffset": 8891
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 2,
+                        "startOffset": 9214,
+                        "endColumn": 82,
+                        "endOffset": 9294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 8896,
+                    "endColumn": 57,
+                    "endOffset": 8949
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 2,
+                        "startOffset": 9297,
+                        "endColumn": 55,
+                        "endOffset": 9350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 8954,
+                    "endColumn": 49,
+                    "endOffset": 8999
+                },
+                "from": {
+                    "file": "/Users/Jens/Desktop/NeanderthalPlus/platforms/android/res/values-el/strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 2,
+                        "startOffset": 9353,
+                        "endColumn": 47,
+                        "endOffset": 9398
+                    }
+                }
+            }
+        ]
+    }
+]

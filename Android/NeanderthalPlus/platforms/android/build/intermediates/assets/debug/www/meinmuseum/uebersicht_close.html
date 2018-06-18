@@ -1,0 +1,67 @@
+<div data-role="page" id="MeinMuseum_UebersichtClose">
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #404040 !important;
+	}
+	</style>
+	
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Mein Museum Close');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="../rundgang/uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+
+
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="../index.html" data-transition="fade" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<div id="pagetitle">Mein Museum</div>
+	</div>
+	
+	<div data-role="content">
+		<div id="bild" style="background: url(../img/meinmuseum_uebersicht.jpg) no-repeat; background-size: 100% 100%;">
+			<div id="linie"></div>		
+		</div>
+		<br><br>	
+		<div class="choice_list">
+			<ul data-role="listview" data-inset="false" class="ui-nodisc-icon">
+				<li><a href="socialmedia.html" data-transition="slide"><h5>Museumsbesuch teilen</h5></a></li>
+                <li><a href="specialoffer_erkennung_beacons.html" onclick="ChooseTour()" data-transition="slide"><h5>Special Offer</h5></a></li>
+                <li><a href="selfie.html" data-transition="slide"><h5>Ein Selfie mit...</h5></a></li>
+				<li><a href="newsletter.html" data-transition="slide"><h5>Neanderthal Newsletter</h5></a></li>
+                <li><a href="feedback.html" data-transition="slide"><h5>Umfrage</h5></a></li>
+                <li><a href="impressum.html" data-transition="slide"><h5>Über die App</h5></a></li>
+			</ul>
+		</div>		
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		delete tour;
+     		
+		} 
+		
+		function ChooseTour() {
+			tour = 4; // Tour 4 = MuseumsShop
+		}
+	</script>
+	
+</div> 
+
+
+

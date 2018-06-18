@@ -1,0 +1,66 @@
+<div data-role="page" id="Rundgang_DauerausstellungKinderClose"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Rundgang Dauerausstellung Kinder Close');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Rundgang</div>
+	</div>
+
+	
+	<div data-role="content">
+	<div id="bild" style="background: url(../img/rundgang_dauerausstellung_kinder_uebersicht.jpg) no-repeat; background-size: 100% 100%;"> 
+		<div id="contenttitle">
+		<div id="titletext">Ausstellung für Kinder</div><div id="feature" style="background: #00305d"><a href="dauerausstellung_kinder_select_dialog.html" onclick="ChooseTour()" data-transition="fade"><img src="../symb/rundgang.svg"></a></div>
+		</div>
+	</div>
+		
+	<br>
+	
+	<h3>Eine Zeitreise durch die Geschichte des Menschen</h3>
+		Kawiuk führt Dich durch die Ausstellung des Neanderthal Museums. Dabei lernst Du etwas über die Entdeckung des 
+		Neanderthalers vor über 150 Jahren und über die Entwicklung des Menschen, bis heute. An insgesamt 7 Hörstationen kannst 
+		Du den spannenden Geschichten von Kawiuk lauschen. <br>Wenn Du zusätzlich an der Museumskasse ein <i>SteinzeitActionPack</i> 
+		gekauft hast, kannst an einigen Stationen sogar selber etwas ausprobieren und entdecken. Und, kann’s losgehen?
+		<br><br>
+		<a href="dauerausstellung_kinder_select_dialog.html" onclick="ChooseTour()" data-role="button" data-transition="fade">Starte Deinen Rundgang</a>
+		<br>
+		</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		delete tour;
+		} 
+		
+		function ChooseTour() {
+			tour = 6; // Tour 6 = Dauerausstellung Kinder
+		}
+	</script>
+		
+</div> 

@@ -1,0 +1,58 @@
+<div data-role="page" id="#Rundgang_Fundort"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Fundort');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="../rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="uebersicht.html" data-transition="slide" data-direction="reverse"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="#menu_panel"><img src="../symb/menu_weiss.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div>
+
+	
+	<div data-role="content">
+	<div id="bild" style="background: url(../img/rundumsmuseum_fundort.jpg) no-repeat; background-size: 100% 100%;"> 
+		<div id="contenttitle">
+		<div id="titletext">Fundstelle</div><div id="feature" style="background: #00305d"><a href="fundort_select_dialog.html" onclick="ChooseTour()" data-transition="fade"><img src="../symb/rundgang.svg"></a></div>
+		</div>
+	</div>
+	<br>
+	<h3>Fundort des Neanderthalers</h3>
+        Unweit des Museums befindet sich die Fundstelle des Neanderthalers - lange galt diese als verloren. Dieser Rundgang begleitet
+        Sie zum Fundort und führt Sie vor Ort. Er beginnt gleich hinter dem Museum. Der Eingang zur Fundstelle wird durch den ‚Rabenstein’
+        markiert. Er ist ein Relikt der alten Schlucht. Dort beginnt auch die Zeitachse – über die Düssel hinweg und entlang des Weges über
+        die Fundstelle erfährt der Besucher Meilensteine mit besonderen Ereignissen der menschlichen Entwicklungsgeschichte.
+        <br><br>
+		<a href="fundort_select_dialog.html" onclick="ChooseTour()" data-role="button" data-transition="fade">Rundgang starten</a>
+		<br>
+		</div> 
+
+	<script>
+		function ChooseTour() {
+			tour = 2; // Tour 2 = Fundort
+		}
+	</script>
+	
+</div> 

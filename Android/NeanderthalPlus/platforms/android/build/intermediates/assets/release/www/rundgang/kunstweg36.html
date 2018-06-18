@@ -1,0 +1,89 @@
+<div data-role="page" id="Rundgang_Kunstweg10"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff !important;
+	}
+	</style>
+
+	<!-- Vibration -->
+	<script type="text/javascript" charset="utf-8">
+	navigator.notification.vibrate(2000);
+	</script>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Kunstweg Station 10');
+	</script>
+	
+	
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a id="back"><img src="../symb/arrow_weiss.svg"></a>
+		<a href="kunstweg.html"><img src="../symb/menu_close.svg"></a>
+		<div id="pagetitle">Rund ums Museum</div>
+	</div> 
+	
+	<div data-role="content">
+	
+		<div id="bild" style="background: url(../img/rundumsmuseum_kunstweg_10.jpg) no-repeat; background-size: 100% 100%;"> 
+				<div id="contenttitle">
+				<div id="titletext">Kunstweg</div><div id="feature" style="background: #00305d"></div>
+				</div>
+			</div>
+		
+			<br>
+		
+		<h3>Woher Wohin</h3>
+		<h3 style="color: #83a626; margin-top: -10px;">Volker Friedrich Marten</h3>
+		
+		<br>
+		
+		<audio controls>
+  			<source src="../audio/kunstweg10.m4a" type="audio/mp4">
+		</audio>
+		
+		<br><br>
+		
+		Volker Friedrich Marten hat am Zusammenfluß von Düssel und Mettmanner Bach aus einer Eiche einen Wegweiser geschaffen. 
+		Das fließende Wasser als Metapher für die verrinnende Zeit und das Neandertal selbst verleihen dem Titel <b>Woher Wohin</b> 
+		außer der räumlichen eine zeitliche Dimension. Der Mensch und die Frage nach seinem Ursprung, Zustand und Schicksal sind 
+		die allgegenwärtigen Themen des Tals. Woher - Wohin, die Hüllen sind zwar in ihrem Richtungsstreit gefangen, aber der Mensch 
+		kann sich, wenn er mag, selbst in den ausgebrannten Stamm stellen und über seine Spuren und Wege nachsinnen.    
+		
+		<br><br>
+		
+		<div data-role="collapsible" class="ui-nodisc-icon">
+		<h3>Volker Friedrich Marten</h3>
+		<p>wurde 1955 in München geboren. Er lebt und arbeitet in Runkel a d. Lahn. Volker Friedrich Marten vertraut auf 
+		die Formensprache von Fülle und Leere, die klassischen Mittel der Skulptur. Häufig fordert er den Betrachter auf, 
+		sich auch physisch in seine Arbeiten hinein zu begeben, mittendrin zu sein. Als Kurator war er verantwortlich für 
+		die Planung und Realisierung des Projektes <i>MenschenSpuren</i>.</p>
+		</div>
+		
+		<br>
+	
+	</div> 
+	
+	<script>
+		if (beacon == 1) {
+     		clearInterval(myVar);
+     		delete beacon;
+     		
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_erkennung_beacons.html', { reloadPage: true, transition: "fade" } );      
+			});
+		}
+		
+		else {
+			
+			$('#back').click( function() {
+  				BeaconLink = "";
+    			$.mobile.changePage( 'kunstweg_qrreader.html', { reloadPage: true, transition: "fade" } );      
+			});
+		} 
+	</script> 
+		
+</div> 

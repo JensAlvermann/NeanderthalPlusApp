@@ -1,0 +1,218 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"EstimoteBeacons\"><param name=\"ios-package\" value=\"EstimoteBeacons\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"LocationManager\"><param name=\"ios-package\" value=\"CDVLocationManager\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Cache\"><param name=\"ios-package\" value=\"Cache\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"ScanditSDK\"><param name=\"ios-package\" value=\"ScanditSDK\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "NSLocationAlwaysUsageDescription": [
+                        {
+                            "xml": "<string>This app would like to scan for beacons when in the background.</string>",
+                            "count": 1
+                        }
+                    ],
+                    "NSLocationWhenInUseUsageDescription": [
+                        {
+                            "xml": "<string>This app would like to scan for beacons while it is in use.</string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "cordova-plugin-estimote": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "com.mirasense.scanditsdk.plugin": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        },
+        "at.modalog.cordova.plugin.cache": {
+            "PACKAGE_NAME": "com.neanderthal.plus"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-estimote/plugin/src/js/EstimoteBeacons.js",
+            "id": "cordova-plugin-estimote.EstimoteBeacons",
+            "pluginId": "cordova-plugin-estimote",
+            "clobbers": [
+                "estimote"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/barcode.js",
+            "id": "com.mirasense.scanditsdk.plugin.Barcode",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.Barcode"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/barcodepicker.js",
+            "id": "com.mirasense.scanditsdk.plugin.BarcodePicker",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.BarcodePicker"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/license.js",
+            "id": "com.mirasense.scanditsdk.plugin.License",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.License"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/margins.js",
+            "id": "com.mirasense.scanditsdk.plugin.Margins",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.Margins"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/point.js",
+            "id": "com.mirasense.scanditsdk.plugin.Point",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.Point"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/quadrilateral.js",
+            "id": "com.mirasense.scanditsdk.plugin.Quadrilateral",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.Quadrilateral"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/rect.js",
+            "id": "com.mirasense.scanditsdk.plugin.Rect",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.Rect"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/overlay.js",
+            "id": "com.mirasense.scanditsdk.plugin.ScanOverlay",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.ScanOverlay"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/session.js",
+            "id": "com.mirasense.scanditsdk.plugin.ScanSession",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.ScanSession"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/settings.js",
+            "id": "com.mirasense.scanditsdk.plugin.ScanSettings",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.ScanSettings"
+            ]
+        },
+        {
+            "file": "plugins/com.mirasense.scanditsdk.plugin/src/symbologysettings.js",
+            "id": "com.mirasense.scanditsdk.plugin.SymbologySettings",
+            "pluginId": "com.mirasense.scanditsdk.plugin",
+            "clobbers": [
+                "Scandit.SymbologySettings"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+            "id": "cordova-plugin-inappbrowser.inappbrowser",
+            "pluginId": "cordova-plugin-inappbrowser",
+            "clobbers": [
+                "cordova.InAppBrowser.open",
+                "window.open"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+            "id": "cordova-plugin-splashscreen.SplashScreen",
+            "pluginId": "cordova-plugin-splashscreen",
+            "clobbers": [
+                "navigator.splashscreen"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+            "id": "cordova-plugin-vibration.notification",
+            "pluginId": "cordova-plugin-vibration",
+            "merges": [
+                "navigator.notification",
+                "navigator"
+            ]
+        },
+        {
+            "file": "plugins/at.modalog.cordova.plugin.cache/www/Cache.js",
+            "id": "at.modalog.cordova.plugin.cache.Cache",
+            "pluginId": "at.modalog.cordova.plugin.cache",
+            "clobbers": [
+                "cache"
+            ]
+        }
+    ]
+}

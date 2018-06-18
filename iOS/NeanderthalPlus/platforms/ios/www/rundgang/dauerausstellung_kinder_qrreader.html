@@ -1,0 +1,38 @@
+<div data-role="page" id="Rundgang_DauerausstellungKinderQRReader"> 
+
+	<style type="text/css">
+	.ui-overlay-a,
+	.ui-page-theme-a,
+	.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #404040 !important;
+	}
+	</style>
+
+	<!-- Page Tracking via Google Analytics -->
+	<script>
+	ga_storage._trackPageview('Rundgang Dauerausstellung Kinder QRCodeReader');
+	</script>
+
+	<div class="panel right" data-role="panel" data-position="right" data-display="push" id="menu_panel">
+		<img src="../symb/panel_logo.svg">
+			<ul>
+				<li class="profile"><a href="../dasmuseum/uebersicht.html">DAS MUSEUM</a></li>
+				<li class="setting"><a href="../ausstellungen/uebersicht.html">AUSSTELLUNGEN</a></li>
+				<li class="logout"><a href="uebersicht.html">RUNDGANG</a></li>
+				<li class="report"><a href="..rundumsmuseum/uebersicht.html">RUND UMS MUSEUM</a></li>
+				<li class="report"><a href="../veranstaltungen/uebersicht.html">VERANSTALTUNGEN</a></li>
+				<li class="report"><a href="../meinmuseum/uebersicht.html">MEIN MUSEUM</a></li>
+			</ul>
+	</div>
+	
+	
+	<div data-role="content">
+		<div id="close_button"><a href="dauerausstellung_kinder.html" data-transition="fade" data-direction="reverse"><img src="../symb/close.svg"></a></div>
+		<div id="btn_info"><br><br><br>Scanne den Code mit dem Logo des Neanderthal Museums an einer Hörstation für Kinder, um den Audioguide aufzurufen.</div><br>
+		<div id="qr_suche_icon"></div>
+	
+			<input type="button" width="50%" value="Code scannen" onclick="scan()" />
+
+	</div> 
+	
+</div> 
