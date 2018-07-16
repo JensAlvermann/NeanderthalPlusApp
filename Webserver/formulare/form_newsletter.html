@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.0b1.min.css" />
+	<link rel="stylesheet" href="css/nm_ext.css" />
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.0b1.min.js"></script>
+	<script type="text/javascript" src="js/contact_newsletter.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+
+
+	<div data-role="content">	
+	<div class="contact-thankyou" style="display: none;">
+			<br><br><img src="img/ok.svg" width="100%" valign="center">
+		</div>
+		<div class="contact-form">
+			<div data-role="fieldcontain" class="text-field">
+				<label for="firstname">Vorname:</label>
+				<input type="text" name="firstname" value="" placeholder="" class="required" id="firstname" />
+			</div>
+			<div data-role="fieldcontain" class="text-field">
+				<label for="surname">Nachname:</label>
+				<input type="text" name="surname" value="" placeholder="" id="surname" />
+			</div>
+			<div data-role="fieldcontain" class="text-field">
+				<label for="email">Emailaddresse:</label>
+				<input type="email" name="email" value="" placeholder="" class="required" id="email"  />
+			</div>
+			
+			<div class="send"><a href="javascript:;" id="send-feedback"><img src="img/newsletter_abo.svg"></a></div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>

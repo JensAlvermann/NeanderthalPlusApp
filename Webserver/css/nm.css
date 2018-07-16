@@ -1,0 +1,965 @@
+/*** Neanderthal Museum App Layout */
+
+.ui-page.ui-body-c, .ui-panel-content-wrap{ /* ui-page ui-body legt den Hintergrund der Seite fest, Panel >conetnt warap, dass der Hintergrund des Panels nicht gleich dem BAckground ist*/
+background: transparent; /* generelle Hintergrundfarbe angeben*/
+background-size: 100% 100%; /* width and height, kann %, px, o.ä. sein. */
+}
+
+.ui-icon.ui-icon-arrow-r {
+background: url(../symb/btn_arrow_weiss.svg) no-repeat;
+box-shadow: none;
+top: 20px !important;
+padding-right: 5px;
+height: 34px;
+width: 34px;
+}
+
+.ui-icon.ui-icon-arrow-r {
+background: url(../symb/btn_arrow_weiss.svg) no-repeat;
+box-shadow: none;
+top: 20px !important;
+padding-right: 5px;
+height: 34px;
+width: 34px;
+}
+
+
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-bottom,
+.ui-corner-tl,
+.ui-corner-tr,
+.ui-corner-bl,
+.ui-header .ui-btn-corner-all,
+.ui-listview-filter .ui-btn-corner-all,
+
+#restau_infos .ui-btn-corner-all,
+#contact_buttons .ui-btn-corner-all,
+#notation .ui-btn-corner-all{
+
+border-radius:0.2em; /* Hier wird die Abrundungstärke von Kanten definiert*/
+box-shadow: none;
+}
+
+
+
+.ui-content .choice_list .ui-btn-active .ui-link-inherit,
+.ui-btn-down-c a.ui-link-inherit,
+
+.ui-btn-up-c a.ui-link-inherit{
+font-family: Roboto;
+color: #fff;
+text-shadow: none; 
+}
+
+.ui-btn-hover-c a.ui-link-inherit{
+color: #404040;
+text-shadow: none; 
+}
+
+.ui-btn-down-c a.ui-link-inherit{
+color: #404040 !important;			/* Textfarbe der Links :: ???? ist gleich Active Status bei Links*/
+text-shadow: none !important;
+font-weight: light;
+}
+
+
+img{
+max-width: 100%;
+height: auto; width: 1005;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.ui-grid-a .ui-block-a, .ui-grid-a .ui-block-b {
+width: 48%;
+padding:1%;
+}
+
+
+
+/*** home !!! hier bisheriges styling.css einsetzen*/
+
+
+
+.ui-header.ui-bar-a{
+	background: #83a626;
+	height: 45px;
+	border: none;
+	padding-top: 12px;
+	padding-bottom: 3px;
+}
+
+.ui-header.ui-bar-a img{
+	margin-top: -3px;
+	padding-top: 12px;
+	padding-bottom: 3px;
+  }
+
+
+
+#pagetitle{
+text-shadow: none;
+text-align: center;
+padding-top: 16px;
+margin-left: -12px;
+font-size: 18px !important; 
+font-weight: 400;
+font-family: Roboto, sans-serif; 
+color: #FFF;
+}
+
+
+/* Background Imgage & Bildverlauf in der HTML Datei referenziert wg. individuellem Bild */
+#Uebersicht .ui-header.ui-bar-a{
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	height: 235px;
+	border: none;
+	padding-top: 12px;
+}
+
+#Uebersicht .ui-header.ui-bar-a img.bg{
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#Uebersicht .ui-header.ui-bar-a img{
+	padding-top: 12px;
+}
+
+
+
+.ui-header .ui-title {
+text-indent:-9999px;
+font-size:0px;
+background:/* Hier ggf Titelbild einfügen : url(../images/header_logo.png) no-repeat */ 69% 5px ;  
+height:33px;
+padding:5px 0 5px 50px;
+margin:0px;
+}
+
+.ui-header .ui-btn-inner {
+border: 0px;
+}
+
+.ui-header  .ui-btn-up-a  {
+background:transparent;
+border:none;
+}
+.ui-header  .ui-btn-hover-a {
+background:transparent;
+border:none;
+}
+
+/* Content -------------------------------------------------------------------------------------------------- */
+.ui-content {
+	padding-top: 15px !important;
+	color: #000;
+	text-shadow: none;
+	font-size: 14px !important; 
+	font-family: Roboto, sans-serif; 
+}
+
+.ui-content #bild {
+	position: relative;
+	background-size: 100% 230px;
+	height: 230px;
+	margin: -15px;
+	margin-bottom: 0px;
+}
+
+.ui-content #bild_slide {
+	position: relative;
+	height: 50px;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: 155px;
+	z-index: 10;
+}
+
+.ui-content #linie {
+background-color: transparent;
+position: absolute;
+width: 75%;
+height: 15px;
+bottom: 0px;
+}
+
+/*
+.ui-content #categorieicon{
+width: 300px;
+height: auto;
+margin-bottom: 0px;
+float: right;
+padding-top: 70px;
+margin-right: -15px;
+overflow: hidden;
+}
+*/
+/*
+.ui-content #contenttitle {
+	position: absolute;
+	margin-left: -15px;
+	background: #86bc26;
+	clear: both;
+	width: 100%;
+	height: 50px;
+	top: 200px;
+}
+*/
+
+.ui-content #contenttitle {
+	position: absolute;
+	background: url(../img/bg_blacktrans.png) repeat;
+	clear: both;
+	width: 100%;
+	height: 50px;
+	bottom: 0px;
+}
+
+
+.ui-content #titletext {
+	float: left;
+	font-size: 20px !important; 
+	font-weight: 400;
+	font-family: Roboto, sans-serif; 
+	color: #fff;
+	text-align: left;
+	text-shadow: none;
+	padding-top: 15px;
+	padding-left: 50px;
+	margin-left: -35px;
+}
+	
+	
+.ui-content #feature {
+	float: right;
+	height: 43px;
+	width: 43px;
+	padding-top: 7px;
+	padding-left: 7px;
+}
+
+.ui-content #img_collapse {
+	position: relative;
+	width: 125%;
+	height: 225px;
+	margin-left: -15px;
+}
+
+
+.ui-content #veranstaltungen {
+	position: relative;
+	margin-left: -15px;
+	margin-right: 30px;
+	width: 100%;
+	margin-top: -15px;
+}
+
+.ui-content #page_extern {
+	position: relative;
+	margin-left: -15px;
+	margin-right: 30px;
+	width: 100%;
+	margin-top: -15px;
+}
+
+
+.ui-content .owl-carousel h3{
+	padding-left: 15px;
+	padding-top: 30px;
+	color: #00305d;
+	text-align: left;
+	font-size: 18px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	margin-bottom: -25px;
+}
+
+.ui-content .owl-carousel h4{
+	padding-left: 15px;
+	color: #404040;
+	text-align: left;
+	font-size: 18px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+}
+
+.ui-content .owl-carousel h5{
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #000;
+	text-align: left;
+	font-size: 14px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
+
+/* Content Listview styling __________________________________________________________________________________*/
+.ui-content .ui-li{
+	background: transparent !important;
+	border: none;
+	text-align: left;
+	vertical-align : middle;
+	text-shadow: none;
+	padding-left: 0px;
+	padding-right: 10px;
+
+}
+
+
+
+/* Content Button Styling ____________________________________________________________________________________ */
+.ui-content .ui-btn  {
+	color: #FFF;
+	text-shadow: none;
+	font-weight: regular;
+	border: none;
+	border-radius:0.0em; /* Hier wird die Abrundungstärke von Kanten definiert*/
+	box-shadow: none;
+	background: #83a626;
+	text-decoration: none;
+
+	}
+
+.ui-content .ui-btn-inner {
+	border-top: none;
+	margin-bottom: -10px;
+}
+
+
+
+/* Content Collapsible Styling _______________________________________________________________________________ */
+.ui-collapsible{
+    background: transparent;
+}
+
+.ui-collapsible-heading .ui-icon {
+    display: none;
+}
+
+#custom-collapsible {
+    width: 100% !important; 
+    margin-top: -20px;
+    margin-left: -15px !important; 
+    border-width: 0px !important; 
+    background-color: transparent  !important;
+	font-size: 14px !important; 
+	font-family: Roboto, sans-serif; 
+	color: #79b51c;
+}
+
+#custom-collapsible h3 a {
+    margin: 8px -25px;
+	border-width: 0px !important; 
+    background: transparent  !important;
+	font-size: 14px !important; 
+	font-family: Roboto, sans-serif; 
+	color: #79b51c;
+}
+
+#custom-collapsible h3 img {
+ vertical-align: -2px;
+ padding-right: 5px;
+}
+
+#custom-collapsible p {
+	width: 100%;
+	margin: -15px 0px;
+	background: transparent  !important;
+	font-size: 14px !important; 
+	font-family: Roboto, sans-serif; 
+	color: #000;
+}
+
+
+
+/* Declare fonts to use and their server location */
+@font-face{
+  font-family:'Roboto';
+  src:url(../fonts/Roboto-Thin.ttf) format("truetype");
+  src:url(../fonts/Roboto-Medium.ttf) format("truetype");
+  font-weight:normal;
+  font-style:normal
+}
+
+/* Override any existing styles with your own fonts - may need to use !important for some properties to work */
+* {
+font-family: 'Roboto', sans-serif;
+}
+
+
+ 
+ /* navigation bar */
+.ui-footer.ui-bar-a{
+background: transparent;
+border: none;
+}
+
+.ui-footer .ui-title {
+text-indent:-9999px;
+font-size:0px;
+height:33px;
+padding:5px 0 5px 50px;
+margin:0px;
+border: none;
+}
+
+.ui-footer #geschichte_navigation {
+ background-image: url("../symb/geschichte_nav.png");   
+ background-repeat: repeat;
+ background-position: 0 0;
+ height: 75px;
+ width: 100%;
+}
+
+
+iframe[seamless] {
+    border: none;
+     width: 112%;
+}
+
+
+ 
+.tab1, .tab2, .tab3, .tab4 {
+	width:80px;
+	height:50px;
+	background: url('../symb/IconPack400x80.png');
+	/*** background-size can be use to scale the iconpack ***/ 
+	background-size:400px 80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+ 
+.tab1 {
+	background-position:0px 0px;
+} 
+ 
+.tab2 {
+	background-position:80px 0px;
+}
+ 
+.tab3 {
+	background-position:160px 0px;
+}
+ 
+.tab4 {
+	background-position:240px 0px;
+}
+
+/* 
+.tab5 {
+	background-position:320px 0px;
+}
+*/ 
+ 
+/*** This is example how to use extend class for custom tab below footer ***/
+.small-tab1, .small-tab2, .small-tab3, .small-tab4, .small-tab5 {
+	width:40px;
+	height:40px;
+	background: url('../images/IconPack400x80.png');
+	/*** background-size can be use to scale the iconpack ***/ 
+	background-size:200px 40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+ 
+.small-tab1 {
+	background-position:0px 0px;
+} 
+ 
+.small-tab2 {
+	background-position:40px 0px;
+}
+ 
+.small-tab3 {
+	background-position:80px 0px;
+}
+ 
+.small-tab4 {
+	background-position:120px 0px;
+}
+ 
+.small-tab5{
+	background-position:160px 0px;
+}
+
+
+
+/* Panel*/
+
+.open a, .open a:hover {
+	padding: 7px 15px;
+	background-color: #000;
+	border: none;
+}
+.open { 
+	color: #fff;
+	position: absolute;
+	border: none;
+}
+.open.left {
+	left: 20px;
+	cursor: pointer;
+}
+.open.right {
+	right: 20px;
+	cursor: pointer;
+}
+.panel {
+	background: #404040;
+	color: #ECF0F1;
+}
+.panel a {
+	color: #FFF !important;
+	text-shadow: 0 0 0 rgba(0,0,0,0);
+	font-size: 14px;
+	padding: 15px 20px 15px 60px;
+	display: block;
+	text-decoration: none;
+	/*border-bottom: 1px solid #475657;
+	border-top: 1px solid #95A5A6;*/
+	position: relative;
+	font-weight: 400;
+}
+.panel img {
+margin: 15px 15px 30px;
+}
+.panel ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border: none;
+}
+.panel .avatar {
+	position: absolute;
+	top: 8px;
+	left: 20px;
+}
+.ui-panel-inner {
+	padding: 0;
+}
+.panel a:hover {
+	background-color: #707070;
+}
+
+.panel.right a:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 15px;
+	left: 20px;
+	font-family: 'Helvetica';
+	text-align: center;
+	font-size: 18px;
+	border: none;
+}
+}
+
+/*
+.panel.left a:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 15px;
+	left: 20px;
+	font-family: 'Helvetica';
+	text-align: center;
+	font-size: 18px;
+}
+*/
+
+.panel.right .newsfeed a:before { 
+	content: url(../images/lufus.png) no-repeat;
+	margin-top: -6px;
+}
+.panel.right .profile a:before { 
+	content: '';
+}
+.panel.right .setting a:before { 
+	content: '';
+}
+.panel.right .logout a:before { 
+	content: '';
+}
+.panel.right .report a:before { 
+	content: '';
+}
+
+
+
+
+
+/*____________________________________________________________*/
+
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.2
+ */
+
+/* Slider für ganze Seite */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	margin: 0px;
+	margin-top: -25px;
+	margin-left: -15px; /* kein Rand links */
+	margin-right: -15px;
+	padding: 0px;
+	position: absolute;
+	width: 105%; /* ursprünglich 100%*/
+	height: 315px;
+	background: transparent;
+	-ms-touch-action: pan-y;
+	color: #fff;
+	text-align: center;
+}
+
+.owl-carousel img{
+height: 230px;
+width: 100%;
+
+}
+
+.owl-carousel h1{
+	color: #fff;
+	text-align: left;
+	font-size: 28px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
+.owl-carousel h2{
+	color: #fff;
+	text-align: left;
+	font-size: 18px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
+
+
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/* ####################################### */
+
+
+/* Slider mit mehreren Bildern auf einer Seite */
+
+
+.owl-carousel_slim .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel_slim{
+	display: none;
+	margin: -15px;
+	margin-top: -25px;
+	margin-left: -15px; /* kein Rand links */
+	margin-right: 30px;
+	padding: 0px;
+	position: absolute;
+	width: 100%; /* ursprünglich 100%*/
+	height: 230px;;
+	background: transparent;
+	-ms-touch-action: pan-y;
+	color: #fff;
+	text-align: center;
+}
+
+.owl-carousel_slim img{
+height: 230px;
+width: 100%;
+
+}
+
+.owl-carousel_slim h1{
+	color: #fff;
+	text-align: left;
+	font-size: 28px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
+.owl-carousel_slim h2{
+	color: #fff;
+	text-align: left;
+	font-size: 18px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
+
+
+.owl-carousel_slim .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel_slim .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel_full .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel_slim .owl-item{
+	float: left;
+}
+
+/* fix */
+.owl-carousel_slim  .owl-wrapper,
+.owl-carousel_slim  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+
+
+
+/* ####################################### */
+
+
+/* Slider im Fullscreen*/
+
+
+.owl-carousel_full .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel_full{
+	display: none;
+	margin: -15px;
+	margin-top: -25px;
+	margin-left: -15px; /* kein Rand links */
+	margin-right: 30px;
+	padding: 0px;
+	position: absolute;
+	width: 100%; /* ursprünglich 100%*/
+	height: 100%;;
+	background: transparent;
+	-ms-touch-action: pan-y;
+	color: #fff;
+	text-align: center;
+}
+
+.owl-carousel_full img{
+height: 100%;
+width: 100%;
+
+}
+
+.owl-carousel_full h1{
+	color: #fff;
+	text-align: left;
+	font-size: 28px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
+.owl-carousel_full h2{
+	color: #fff;
+	text-align: left;
+	font-size: 18px !important; 
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
+
+
+.owl-carousel_full .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel_full .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel_full .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel_full .owl-item{
+	float: left;
+}
+
+/* fix */
+.owl-carousel_full  .owl-wrapper,
+.owl-carousel_full  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+/*____________________________________________________________*/
+
+/* 
+ * 	Audio Player
+ *	HTML 5 (audio js)
+ */
+
+
+    .audiojs audio { position: absolute; left: -1px; }
+	  
+	  /* Player Element */
+      .audiojs { width: 100%; height: 36px; background: #FFF; overflow: hidden; font-family: monospace; font-size: 12px;
+        -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0); -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+        -o-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0); box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0); }
+      .audiojs .play-pause { width: 25px; height: 40px; padding: 4px 0px; margin: 0px; float: left; overflow: hidden; border-right: 0px solid #c00; }
+      .audiojs p { display: none; width: 25px; height: 40px; margin: 0px; cursor: pointer; }
+      .audiojs .play { display: block; }
+      
+	  /* Progress Bar */
+	  .audiojs .scrubber { position: relative; float: left; width: 80%; background: lightgrey; height: 20px; margin: 10px; border-left: 0px; border-bottom: 0px; overflow: hidden; border-top: 0px; }
+      .audiojs .progress { position: absolute; top: 0px; left: 0px; height: 20px; width: 0px; background: #404040; z-index: 1; }
+      
+	  /* Hintergrund Progress Bar */
+	  .audiojs .loaded { position: absolute; top: 0px; left: 0px; height: 20px; width: 0px; background: lightgrey; }
+      
+	  /* Zeitanzeige deaktiviert durch setzen der Werte auf '0' */
+	  .audiojs .time { float: left; height: 0px; line-height: 0x; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-left: 0px solid transparent; color: transparent; text-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
+      .audiojs .time em { padding: 0px 0px 0px 0px; color: transparent; font-style: normal; }
+      .audiojs .time strong { padding: 0px 0px 0px 0px; font-weight: normal; }
+      .audiojs .error-message { float: left; display: none; margin: 0px 10px; height: 36px; width: 400px; overflow: hidden; line-height: 36px; white-space: nowrap; color: #fff;
+        text-overflow: ellipsis; -o-text-overflow: ellipsis; -icab-text-overflow: ellipsis; -khtml-text-overflow: ellipsis; -moz-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; }
+      .audiojs .error-message a { color: #eee; text-decoration: none; padding-bottom: 0px; border-bottom: 0px solid #999; white-space: wrap; }
+
+	  
+	  /* Referenzieren der Playericons Play, Pause & Loading */
+      .audiojs .play { background: url('../symb/audioplayer_play.svg') 0px 6px no-repeat; }
+      .audiojs .loading { background: url('../symb/audioplayer_loading.png') -2px -31px no-repeat; }
+      .audiojs .pause { background: url('../symb/audioplayer_paused.svg') 0px 6px no-repeat; }
+
+      .playing .play, .playing .loading, .playing .error { display: none; }
+      .playing .pause { display: block; }
+
+      .loading .play, .loading .pause, .loading .error { display: none; }
+      .loading .loading { display: block; }
+
+      .error .time, .error .play, .error .pause, .error .scrubber, .error .loading { display: none; }
+      .error .error { display: block; }
+      .error .play-pause p { cursor: auto; }
+      .error .error-message { display: block; }
+      
+      
+	  
+	  
+	  /* Bookmarks */
+	  
+	  #favorites-button {
+                background: url('../symb/love.png');
+                display: block;
+                float: left;
+                width: 40px;
+                height: 40px;
+                margin: 2px;
+            }
+
+     #favorites-button.active {
+                background: url('../symb/love-active.png');
+            }
+	  
